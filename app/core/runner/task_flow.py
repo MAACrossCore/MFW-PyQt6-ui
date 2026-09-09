@@ -1318,10 +1318,20 @@ class TaskFlowRunner(QObject):
                 args.append(payload)
 
             exec_target = Path(exec_path)
-            if not exec_target.is_absolute():
-                exec_target = (bundle_base / exec_path.lstrip("\\/")).resolve()
+            # 裸命令名（如 python）保持原样走 PATH；路径形式（含 /、\ 或 . 前缀）才相对 bundle_base 解析
+            _looks_like_path = (
+                "/" in exec_path
+                or "\\" in exec_path
+                or exec_path.startswith(".")
+                or exec_path.startswith("{PROJECT_DIR}")
+            )
+            if _looks_like_path:
+                if not exec_target.is_absolute():
+                    exec_target = (bundle_base / exec_path.lstrip("\\/")).resolve()
+                exec_str = str(exec_target)
+            else:
+                exec_str = exec_path
 
-            exec_str = str(exec_target)
             logger.info("PreTask[%d] 执行: %s", idx, exec_str)
             self.log_output.emit("INFO", self.tr("Executing pretask: ") + exec_str)
 

@@ -1,0 +1,101 @@
+[2026-08-09 20:27:37,090][DEBUG][config.py][L406][init_language_on_first_run] | 已设置语言偏好，跳过自动检测
+[2026-08-09 20:27:37,094][INFO][main.py][L181][_run] | MFW 版本:v4.6.16
+[2026-08-09 20:27:37,094][INFO][main.py][L182][_run] | 当前工作目录: E:\GitHub\MFW-PyQt6-ui
+[2026-08-09 20:27:37,095][DEBUG][crypto.py][L47][ensure_key_exists] | 加载密钥文件成功: C:\Users\xy315\AppData\Local\MFW-ChainFlow Assistant\k.ey
+[2026-08-09 20:27:40,523][DEBUG][registry.py][L37][register] | 注册选项类型: checkbox -> CheckBoxOptionItem
+[2026-08-09 20:27:40,524][DEBUG][registry.py][L37][register] | 注册选项类型: combobox -> ComboBoxOptionItem
+[2026-08-09 20:27:40,524][DEBUG][registry.py][L37][register] | 注册选项类型: select -> ComboBoxOptionItem
+[2026-08-09 20:27:40,524][DEBUG][registry.py][L37][register] | 注册选项类型: switch -> SwitchOptionItem
+[2026-08-09 20:27:40,524][DEBUG][registry.py][L37][register] | 注册选项类型: input -> InputOptionItem
+[2026-08-09 20:27:40,524][DEBUG][registry.py][L37][register] | 注册选项类型: inputs -> InputsOptionItem
+[2026-08-09 20:27:40,524][DEBUG][registry.py][L37][register] | 注册选项类型: hotkey -> HotkeyOptionItem
+[2026-08-09 20:27:40,524][DEBUG][registry.py][L153][register_default_types] | 已注册默认选项类型: combobox, select, switch, input, inputs, checkbox, hotkey
+[2026-08-09 20:27:41,750][INFO][main.py][L281][_run] | 加载简体中文翻译
+[2026-08-09 20:27:41,769][DEBUG][proactor_events.py][L631][__init__] | Using proactor: _IocpProactor
+[2026-08-09 20:27:41,770][INFO][gpu_cache.py][L119][initialize] | 开始初始化 GPU 信息缓存...
+[2026-08-09 20:27:41,916][INFO][gpu_cache.py][L127][initialize] | ✅ GPU 信息缓存成功，检测到 4 个 GPU 设备
+[2026-08-09 20:27:41,916][DEBUG][gpu_cache.py][L131][initialize] |   GPU 0: GameViewer Virtual Display Adapter
+[2026-08-09 20:27:41,916][DEBUG][gpu_cache.py][L131][initialize] |   GPU 1: Meta Virtual Monitor
+[2026-08-09 20:27:41,916][DEBUG][gpu_cache.py][L131][initialize] |   GPU 2: MuMu Virtual Display Adapter
+[2026-08-09 20:27:41,916][DEBUG][gpu_cache.py][L131][initialize] |   GPU 3: NVIDIA GeForce RTX 4060 Laptop GPU
+[2026-08-09 20:27:42,076][INFO][core.py][L214][_resolve_interface_path] | 从当前激活配置 c_03dbd5fd9ec649659e38efe4a47238bb 解析到 interface 路径: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-09 20:27:42,077][DEBUG][interface_manager.py][L151][initialize] | 加载配置文件: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-09 20:27:42,078][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-09 20:27:42,079][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-09 20:27:42,080][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-09 20:27:43,598][INFO][core.py][L174][__init__] | 资源版本: v0.2.0
+[2026-08-09 20:27:43,599][INFO][main_window.py][L3217][set_title] |  设置窗口标题：Maa_Practice v0.2.0
+[2026-08-09 20:27:45,492][DEBUG][character_controller.py][L311][switch_to_window_mode] | Character → window mode
+[2026-08-09 20:27:45,493][INFO][main_window.py][L1305][_init_character_controller] | 桌面小人控制器已初始化 (enabled=True, mode=window)
+[2026-08-09 20:27:45,702][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-09 20:27:45,703][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-09 20:27:45,724][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 一键日常: 没有 resource 字段，显示（所有资源可用）
+[2026-08-09 20:27:45,724][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 启动游戏: 没有 resource 字段，显示（所有资源可用）
+[2026-08-09 20:27:45,725][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 领取邮件: 没有 resource 字段，显示（所有资源可用）
+[2026-08-09 20:27:45,725][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 基地任务: 没有 resource 字段，显示（所有资源可用）
+[2026-08-09 20:27:45,725][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 JJC: 没有 resource 字段，显示（所有资源可用）
+[2026-08-09 20:27:45,725][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 日常刷体力: 没有 resource 字段，显示（所有资源可用）
+[2026-08-09 20:27:45,725][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 周本: 没有 resource 字段，显示（所有资源可用）
+[2026-08-09 20:27:45,958][INFO][main_window.py][L421][__init__] | 初始化 BundleInterface...
+[2026-08-09 20:27:45,971][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-09 20:27:45,972][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-09 20:27:45,979][INFO][main_window.py][L423][__init__] | BundleInterface 创建成功
+[2026-08-09 20:27:46,815][INFO][setting_interface.py][L2642][_init_updater] | 更新器初始化完成
+[2026-08-09 20:27:46,815][INFO][setting_interface.py][L2754][_refresh_local_update_package] | 本地更新元数据不存在，跳过本地包刷新
+[2026-08-09 20:27:46,815][INFO][main_window.py][L436][__init__] | 检查多资源适配状态（启动时）: False
+[2026-08-09 20:27:46,815][INFO][main_window.py][L452][__init__] | 多资源适配未开启，显示 Announcement，BundleInterface 不会显示在导航栏
+[2026-08-09 20:27:46,820][INFO][update.py][L1292][_init_run_context] | ==================================================
+[2026-08-09 20:27:46,830][INFO][update.py][L1293][_init_run_context] | 开始更新流程
+[2026-08-09 20:27:46,844][INFO][update.py][L1306][_init_run_context] | 当前版本: v0.2.0
+[2026-08-09 20:27:46,853][INFO][update.py][L1307][_init_run_context] | 资源ID: 
+[2026-08-09 20:27:46,854][INFO][update.py][L1308][_init_run_context] | GitHub URL: https://github.com/MaaXYZ/MaaPracticeBoilerplate
+[2026-08-09 20:27:46,854][INFO][update.py][L1310][_init_run_context] | ==================================================
+[2026-08-09 20:27:46,859][INFO][update.py][L1331][run] | 以仅检查模式运行更新器（check_only=True）
+[2026-08-09 20:27:46,859][INFO][update.py][L1378][_run_check_only] | 以仅检查模式运行更新器（check_only=True）
+[2026-08-09 20:27:46,859][INFO][update.py][L1292][_init_run_context] | ==================================================
+[2026-08-09 20:27:46,859][INFO][main_window.py][L468][__init__] | ✓ Announcement 已添加到导航栏
+[2026-08-09 20:27:46,859][INFO][update.py][L1293][_init_run_context] | 开始更新流程
+[2026-08-09 20:27:46,860][INFO][update.py][L1306][_init_run_context] | 当前版本: v0.2.0
+[2026-08-09 20:27:46,861][INFO][update.py][L1307][_init_run_context] | 资源ID: 
+[2026-08-09 20:27:46,861][INFO][update.py][L1308][_init_run_context] | GitHub URL: https://github.com/MaaXYZ/MaaPracticeBoilerplate
+[2026-08-09 20:27:46,861][INFO][update.py][L1310][_init_run_context] | ==================================================
+[2026-08-09 20:27:46,861][INFO][update.py][L1753][check_update] |   [检查更新] 开始检查...
+[2026-08-09 20:27:46,861][DEBUG][update.py][L1754][check_update] |   [检查更新] 资源ID: , CDK: 无
+[2026-08-09 20:27:46,861][DEBUG][update.py][L1764][check_update] |   [检查更新] 开关状态: force_full_download=False, force_github=False
+[2026-08-09 20:27:46,861][INFO][update.py][L1874][check_update] |   [检查更新] 因未配置 MirrorChyan 资源ID，直接跳过 Mirror 源
+[2026-08-09 20:27:46,861][INFO][update.py][L1877][check_update] |   [检查更新] 回退到 GitHub 最新版本检查
+[2026-08-09 20:27:46,861][INFO][update.py][L1882][check_update] |   [检查更新] 切换到 GitHub 源...
+[2026-08-09 20:27:46,862][DEBUG][update.py][L1899][check_update] |   [检查更新] GitHub API: https://api.github.com/repos/MaaXYZ/MaaPracticeBoilerplate/releases/latest
+[2026-08-09 20:27:46,862][INFO][update.py][L842][github_check] | 开始GitHub更新检查: https://api.github.com/repos/MaaXYZ/MaaPracticeBoilerplate/releases/latest
+[2026-08-09 20:27:46,938][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：ctrl+f1 -> start task
+[2026-08-09 20:27:46,939][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：alt+f1 -> stop task
+[2026-08-09 20:27:46,939][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：ctrl+f1 -> start task
+[2026-08-09 20:27:46,939][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：alt+f1 -> stop task
+[2026-08-09 20:27:46,939][INFO][main_window.py][L2787][_bootstrap_auto_update_and_run] | 自动更新未开启，改为检查并执行 bundle 自动更新
+[2026-08-09 20:27:46,939][INFO][main_window.py][L2968][_check_and_start_bundle_update] | Bundle 自动更新未开启，直接发送所有更新完成信号
+[2026-08-09 20:27:46,939][INFO][main_window.py][L3001][_on_all_updates_completed] | 收到所有更新完成信号
+[2026-08-09 20:27:46,939][INFO][main_window.py][L520][__init__] |  主界面初始化完成。
+[2026-08-09 20:27:46,939][DEBUG][_windows.py][L215][start] | Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+[2026-08-09 20:27:46,940][DEBUG][_windows.py][L195][run] | Thread started
+[2026-08-09 20:27:47,122][INFO][list_item.py][L420][_get_display_name] | 任务显示: 一键日常 -> 一键日常
+[2026-08-09 20:27:47,144][INFO][list_item.py][L420][_get_display_name] | 任务显示: 启动游戏 -> 启动游戏
+[2026-08-09 20:27:47,163][INFO][list_item.py][L420][_get_display_name] | 任务显示: 领取邮件 -> 领取邮件
+[2026-08-09 20:27:47,183][INFO][list_item.py][L420][_get_display_name] | 任务显示: 基地任务 -> 基地任务
+[2026-08-09 20:27:47,204][INFO][list_item.py][L420][_get_display_name] | 任务显示: JJC -> JJC
+[2026-08-09 20:27:47,223][INFO][list_item.py][L420][_get_display_name] | 任务显示: 日常刷体力 -> 日常刷体力
+[2026-08-09 20:27:47,233][INFO][list_item.py][L420][_get_display_name] | 任务显示: 周本 -> 周本
+[2026-08-09 20:27:47,991][ERROR][update.py][L740][_github_http_error_handler] | GitHub更新检查失败（HTTP错误）: 404 Client Error: Not Found for url: https://api.github.com/repos/MaaXYZ/MaaPracticeBoilerplate/releases/latest
+[2026-08-09 20:27:47,993][WARNING][update.py][L847][github_check] | GitHub请求失败: GitHub 请求被拒绝，请检查项目 URL 或权限。 (HTTP 4xx)
+[2026-08-09 20:27:47,993][INFO][update.py][L1913][check_update] |   [检查更新] GitHub 返回状态: failed
+[2026-08-09 20:28:47,971][DEBUG][character_controller.py][L454][_check_state_and_switch] | 检测到主窗口隐藏/最小化，切换悬浮模式
+[2026-08-09 20:28:47,987][DEBUG][character_controller.py][L454][_check_state_and_switch] | 检测到主窗口隐藏/最小化，切换悬浮模式
+[2026-08-09 20:28:48,293][DEBUG][character_controller.py][L344][switch_to_float_mode] | Character → float mode
+[2026-08-09 20:28:49,588][DEBUG][character_controller.py][L457][_check_state_and_switch] | 检测到主窗口恢复，切换窗口模式
+[2026-08-09 20:28:49,588][DEBUG][character_controller.py][L457][_check_state_and_switch] | 检测到主窗口恢复，切换窗口模式
+[2026-08-09 20:28:49,888][DEBUG][character_controller.py][L311][switch_to_window_mode] | Character → window mode
+[2026-08-09 20:28:51,800][DEBUG][hotkey_manager.py][L154][shutdown] | 已卸载所有 keyboard 钩子
+[2026-08-09 20:28:51,817][DEBUG][main_window.py][L3397][_stop_notice_thread] | 关闭发送线程
+[2026-08-09 20:28:51,817][DEBUG][_windows.py][L220][stop] | Stopping worker thread...
+[2026-08-09 20:28:51,817][DEBUG][_windows.py][L204][run] | Exiting thread
+[2026-08-09 20:28:51,818][DEBUG][main.py][L398][_run] | 关闭异步任务完成
+[2026-08-09 20:28:51,819][DEBUG][_windows.py][L78][close] | Closing

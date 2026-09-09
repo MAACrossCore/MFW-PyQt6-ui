@@ -1,0 +1,1238 @@
+[2026-08-28 20:15:38,076][DEBUG][config.py][L406][init_language_on_first_run] | 已设置语言偏好，跳过自动检测
+[2026-08-28 20:15:38,096][INFO][main.py][L181][_run] | MFW 版本:v4.6.16
+[2026-08-28 20:15:38,096][INFO][main.py][L182][_run] | 当前工作目录: E:\GitHub\MFW-PyQt6-ui
+[2026-08-28 20:15:38,097][DEBUG][crypto.py][L47][ensure_key_exists] | 加载密钥文件成功: C:\Users\xy315\AppData\Local\MFW-ChainFlow Assistant\k.ey
+[2026-08-28 20:15:43,677][DEBUG][registry.py][L37][register] | 注册选项类型: checkbox -> CheckBoxOptionItem
+[2026-08-28 20:15:43,677][DEBUG][registry.py][L37][register] | 注册选项类型: combobox -> ComboBoxOptionItem
+[2026-08-28 20:15:43,677][DEBUG][registry.py][L37][register] | 注册选项类型: select -> ComboBoxOptionItem
+[2026-08-28 20:15:43,678][DEBUG][registry.py][L37][register] | 注册选项类型: switch -> SwitchOptionItem
+[2026-08-28 20:15:43,678][DEBUG][registry.py][L37][register] | 注册选项类型: input -> InputOptionItem
+[2026-08-28 20:15:43,678][DEBUG][registry.py][L37][register] | 注册选项类型: inputs -> InputsOptionItem
+[2026-08-28 20:15:43,678][DEBUG][registry.py][L37][register] | 注册选项类型: hotkey -> HotkeyOptionItem
+[2026-08-28 20:15:43,678][DEBUG][registry.py][L153][register_default_types] | 已注册默认选项类型: combobox, select, switch, input, inputs, checkbox, hotkey
+[2026-08-28 20:15:46,644][INFO][main.py][L281][_run] | 加载简体中文翻译
+[2026-08-28 20:15:46,660][DEBUG][proactor_events.py][L631][__init__] | Using proactor: _IocpProactor
+[2026-08-28 20:15:46,661][INFO][gpu_cache.py][L119][initialize] | 开始初始化 GPU 信息缓存...
+[2026-08-28 20:15:46,778][INFO][gpu_cache.py][L127][initialize] | ✅ GPU 信息缓存成功，检测到 4 个 GPU 设备
+[2026-08-28 20:15:46,778][DEBUG][gpu_cache.py][L131][initialize] |   GPU 0: GameViewer Virtual Display Adapter
+[2026-08-28 20:15:46,778][DEBUG][gpu_cache.py][L131][initialize] |   GPU 1: Meta Virtual Monitor
+[2026-08-28 20:15:46,778][DEBUG][gpu_cache.py][L131][initialize] |   GPU 2: MuMu Virtual Display Adapter
+[2026-08-28 20:15:46,778][DEBUG][gpu_cache.py][L131][initialize] |   GPU 3: NVIDIA GeForce RTX 4060 Laptop GPU
+[2026-08-28 20:15:46,967][INFO][core.py][L214][_resolve_interface_path] | 从当前激活配置 c_03dbd5fd9ec649659e38efe4a47238bb 解析到 interface 路径: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:15:46,968][DEBUG][interface_manager.py][L151][initialize] | 加载配置文件: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:15:46,969][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:15:46,969][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 20:15:46,970][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:15:48,425][INFO][core.py][L174][__init__] | 资源版本: v0.2.0
+[2026-08-28 20:15:48,426][INFO][main_window.py][L3217][set_title] |  设置窗口标题：Maa_Practice v0.2.0
+[2026-08-28 20:15:50,450][DEBUG][character_controller.py][L311][switch_to_window_mode] | Character → window mode
+[2026-08-28 20:15:50,450][INFO][main_window.py][L1305][_init_character_controller] | 桌面小人控制器已初始化 (enabled=True, mode=window)
+[2026-08-28 20:15:50,627][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:15:50,628][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 20:15:50,646][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 一键日常: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:15:50,646][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 启动游戏: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:15:50,646][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 领取邮件: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:15:50,646][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 基地任务: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:15:50,646][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 JJC: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:15:50,646][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 日常刷体力: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:15:50,646][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 周本: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:15:50,865][INFO][main_window.py][L421][__init__] | 初始化 BundleInterface...
+[2026-08-28 20:15:50,875][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:15:50,876][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 20:15:50,882][INFO][main_window.py][L423][__init__] | BundleInterface 创建成功
+[2026-08-28 20:15:51,647][INFO][setting_interface.py][L2642][_init_updater] | 更新器初始化完成
+[2026-08-28 20:15:51,647][INFO][setting_interface.py][L2754][_refresh_local_update_package] | 本地更新元数据不存在，跳过本地包刷新
+[2026-08-28 20:15:51,648][INFO][main_window.py][L436][__init__] | 检查多资源适配状态（启动时）: False
+[2026-08-28 20:15:51,648][INFO][main_window.py][L452][__init__] | 多资源适配未开启，显示 Announcement，BundleInterface 不会显示在导航栏
+[2026-08-28 20:15:51,653][INFO][update.py][L1292][_init_run_context] | ==================================================
+[2026-08-28 20:15:51,664][INFO][update.py][L1293][_init_run_context] | 开始更新流程
+[2026-08-28 20:15:51,673][INFO][update.py][L1306][_init_run_context] | 当前版本: v0.2.0
+[2026-08-28 20:15:51,683][INFO][update.py][L1307][_init_run_context] | 资源ID: 
+[2026-08-28 20:15:51,684][INFO][update.py][L1308][_init_run_context] | GitHub URL: https://github.com/MaaXYZ/MaaPracticeBoilerplate
+[2026-08-28 20:15:51,689][INFO][main_window.py][L468][__init__] | ✓ Announcement 已添加到导航栏
+[2026-08-28 20:15:51,689][INFO][update.py][L1310][_init_run_context] | ==================================================
+[2026-08-28 20:15:51,689][INFO][update.py][L1331][run] | 以仅检查模式运行更新器（check_only=True）
+[2026-08-28 20:15:51,690][INFO][update.py][L1378][_run_check_only] | 以仅检查模式运行更新器（check_only=True）
+[2026-08-28 20:15:51,690][INFO][update.py][L1292][_init_run_context] | ==================================================
+[2026-08-28 20:15:51,690][INFO][update.py][L1293][_init_run_context] | 开始更新流程
+[2026-08-28 20:15:51,690][INFO][update.py][L1306][_init_run_context] | 当前版本: v0.2.0
+[2026-08-28 20:15:51,690][INFO][update.py][L1307][_init_run_context] | 资源ID: 
+[2026-08-28 20:15:51,690][INFO][update.py][L1308][_init_run_context] | GitHub URL: https://github.com/MaaXYZ/MaaPracticeBoilerplate
+[2026-08-28 20:15:51,691][INFO][update.py][L1310][_init_run_context] | ==================================================
+[2026-08-28 20:15:51,691][INFO][update.py][L1753][check_update] |   [检查更新] 开始检查...
+[2026-08-28 20:15:51,691][DEBUG][update.py][L1754][check_update] |   [检查更新] 资源ID: , CDK: 无
+[2026-08-28 20:15:51,691][DEBUG][update.py][L1764][check_update] |   [检查更新] 开关状态: force_full_download=False, force_github=False
+[2026-08-28 20:15:51,691][INFO][update.py][L1874][check_update] |   [检查更新] 因未配置 MirrorChyan 资源ID，直接跳过 Mirror 源
+[2026-08-28 20:15:51,691][INFO][update.py][L1877][check_update] |   [检查更新] 回退到 GitHub 最新版本检查
+[2026-08-28 20:15:51,691][INFO][update.py][L1882][check_update] |   [检查更新] 切换到 GitHub 源...
+[2026-08-28 20:15:51,691][DEBUG][update.py][L1899][check_update] |   [检查更新] GitHub API: https://api.github.com/repos/MaaXYZ/MaaPracticeBoilerplate/releases/latest
+[2026-08-28 20:15:51,691][INFO][update.py][L842][github_check] | 开始GitHub更新检查: https://api.github.com/repos/MaaXYZ/MaaPracticeBoilerplate/releases/latest
+[2026-08-28 20:15:51,765][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：ctrl+f1 -> start task
+[2026-08-28 20:15:51,765][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：alt+f1 -> stop task
+[2026-08-28 20:15:51,765][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：ctrl+f1 -> start task
+[2026-08-28 20:15:51,765][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：alt+f1 -> stop task
+[2026-08-28 20:15:51,765][INFO][main_window.py][L2787][_bootstrap_auto_update_and_run] | 自动更新未开启，改为检查并执行 bundle 自动更新
+[2026-08-28 20:15:51,765][INFO][main_window.py][L2968][_check_and_start_bundle_update] | Bundle 自动更新未开启，直接发送所有更新完成信号
+[2026-08-28 20:15:51,766][INFO][main_window.py][L3001][_on_all_updates_completed] | 收到所有更新完成信号
+[2026-08-28 20:15:51,766][INFO][main_window.py][L520][__init__] |  主界面初始化完成。
+[2026-08-28 20:15:51,766][DEBUG][_windows.py][L215][start] | Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+[2026-08-28 20:15:51,767][DEBUG][_windows.py][L195][run] | Thread started
+[2026-08-28 20:15:52,062][INFO][list_item.py][L420][_get_display_name] | 任务显示: 一键日常 -> 一键日常
+[2026-08-28 20:15:52,080][INFO][list_item.py][L420][_get_display_name] | 任务显示: 启动游戏 -> 启动游戏
+[2026-08-28 20:15:52,098][INFO][list_item.py][L420][_get_display_name] | 任务显示: 领取邮件 -> 领取邮件
+[2026-08-28 20:15:52,116][INFO][list_item.py][L420][_get_display_name] | 任务显示: 基地任务 -> 基地任务
+[2026-08-28 20:15:52,134][INFO][list_item.py][L420][_get_display_name] | 任务显示: JJC -> JJC
+[2026-08-28 20:15:52,153][INFO][list_item.py][L420][_get_display_name] | 任务显示: 日常刷体力 -> 日常刷体力
+[2026-08-28 20:15:52,172][INFO][list_item.py][L420][_get_display_name] | 任务显示: 周本 -> 周本
+[2026-08-28 20:15:53,434][ERROR][update.py][L740][_github_http_error_handler] | GitHub更新检查失败（HTTP错误）: 404 Client Error: Not Found for url: https://api.github.com/repos/MaaXYZ/MaaPracticeBoilerplate/releases/latest
+[2026-08-28 20:15:53,435][WARNING][update.py][L847][github_check] | GitHub请求失败: GitHub 请求被拒绝，请检查项目 URL 或权限。 (HTTP 4xx)
+[2026-08-28 20:15:53,435][INFO][update.py][L1913][check_update] |   [检查更新] GitHub 返回状态: failed
+[2026-08-28 20:15:57,844][DEBUG][character_controller.py][L454][_check_state_and_switch] | 检测到主窗口隐藏/最小化，切换悬浮模式
+[2026-08-28 20:15:57,844][DEBUG][character_controller.py][L454][_check_state_and_switch] | 检测到主窗口隐藏/最小化，切换悬浮模式
+[2026-08-28 20:15:58,169][DEBUG][character_controller.py][L344][switch_to_float_mode] | Character → float mode
+[2026-08-28 20:15:59,669][DEBUG][character_controller.py][L457][_check_state_and_switch] | 检测到主窗口恢复，切换窗口模式
+[2026-08-28 20:15:59,669][DEBUG][character_controller.py][L457][_check_state_and_switch] | 检测到主窗口恢复，切换窗口模式
+[2026-08-28 20:15:59,984][DEBUG][character_controller.py][L311][switch_to_window_mode] | Character → window mode
+[2026-08-28 20:16:53,403][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 一键日常: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:16:53,403][INFO][list_item.py][L420][_get_display_name] | 任务显示: 一键日常 -> 一键日常
+[2026-08-28 20:16:56,010][INFO][monitor_interface.py][L819][_start_monitoring_impl] | [Monitor] 开始启动监控（手动）
+[2026-08-28 20:16:56,019][INFO][monitor_session.py][L176][run_startup_sequence] | [Monitor] 监控控制器未就绪，开始连接...
+[2026-08-28 20:16:56,019][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 20:16:59,289][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 20:16:59,289][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x000001E20A6CACA0>, <app.core.runner.maafw.MaaFW(0x1e23f6f3770) at 0x000001E20B5D8800>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', -57, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:16:59,290][DEBUG][__init__.py][L132][run] | #2 got callback functools.partial(<function MaaFW.connect_adb at 0x000001E20A6CACA0>, <app.core.runner.maafw.MaaFW(0x1e23f6f3770) at 0x000001E20B5D8800>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', -57, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 20:16:59,291][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:17:02,640][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:17:08,105][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 20:17:08,105][INFO][monitor_session.py][L106][start_loop] | [Monitor] 开始启动监控循环，截图速率: 30 FPS
+[2026-08-28 20:17:08,106][INFO][monitor_session.py][L204][_monitor_loop] | [Monitor] 监控循环已开始运行
+[2026-08-28 20:17:08,241][INFO][main_window.py][L3129][show_info_bar] |  显示 InfoBar 提示：监控开始
+[2026-08-28 20:17:22,621][DEBUG][character_controller.py][L311][switch_to_window_mode] | Character → window mode
+[2026-08-28 20:17:32,809][INFO][logoutput_widget.py][L344][clear_log] | [日志清除] 已清除所有日志条目和缓存图像，序号已重置
+[2026-08-28 20:17:32,815][INFO][task_flow.py][L610][run_tasks_flow] | [RUN_RECORD] TASK_FLOW_START
+[2026-08-28 20:17:32,815][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_FLOW_STARTED (1)，未启用对应的发送时机
+[2026-08-28 20:17:32,820][INFO][task_flow.py][L199][_reload_interface_for_current_bundle] | 运行前按当前 bundle 刷新 interface: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:17:32,820][INFO][interface_manager.py][L786][reload] | 重新加载 interface 配置文件...
+[2026-08-28 20:17:32,820][DEBUG][interface_manager.py][L151][initialize] | 加载配置文件: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:17:32,821][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:17:32,822][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 20:17:32,822][INFO][interface_manager.py][L793][reload] | interface 配置文件重新加载完成
+[2026-08-28 20:17:32,823][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:17:32,823][INFO][task_flow.py][L736][run_tasks_flow] | 开始加载资源...
+[2026-08-28 20:17:32,824][DEBUG][task_flow.py][L1883][load_resources] | 加载资源: ['./resource']
+[2026-08-28 20:17:32,824][DEBUG][task_flow.py][L1933][load_resources] | 加载资源: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 20:17:32,830][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.load_resource at 0x000001E20A6CBA60>, <app.core.runner.maafw.MaaFW(0x1e208e6e280) at 0x000001E20B509D40>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:17:32,929][DEBUG][__init__.py][L132][run] | #1 got callback functools.partial(<function MaaFW.load_resource at 0x000001E20A6CBA60>, <app.core.runner.maafw.MaaFW(0x1e208e6e280) at 0x000001E20B509D40>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} from queue
+[2026-08-28 20:17:32,929][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:17:32,929][INFO][monitor_session.py][L238][_monitor_loop] | [Monitor] 监控循环被取消，共捕获 689 帧
+[2026-08-28 20:17:32,929][INFO][monitor_session.py][L242][_monitor_loop] | [Monitor] 监控循环结束，共捕获 689 帧
+[2026-08-28 20:17:32,933][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始加载资源……
+[2026-08-28 20:17:32,965][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001E20A6CBCE0>, <app.core.runner.maafw.MaaFW(0x1e23f6f3770) at 0x000001E20B5D8800>) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:17:32,965][DEBUG][__init__.py][L132][run] | #3 got callback functools.partial(<function MaaFW.stop_task at 0x000001E20A6CBCE0>, <app.core.runner.maafw.MaaFW(0x1e23f6f3770) at 0x000001E20B5D8800>) with args () and kwargs {} from queue
+[2026-08-28 20:17:32,965][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:17:32,970][DEBUG][maafw.py][L1373][load_resource] | 设置自动
+[2026-08-28 20:17:33,234][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 20:17:33,236][INFO][monitor_interface.py][L872][_stop_sequence] | [Monitor] 监控已停止
+[2026-08-28 20:17:33,413][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:17:33,413][DEBUG][task_flow.py][L1948][load_resources] | 资源加载完成: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 20:17:33,413][INFO][task_flow.py][L741][run_tasks_flow] | 资源加载完成
+[2026-08-28 20:17:33,502][DEBUG][interface_manager.py][L603][_handle_embedded_agent] | agent 配置中没有 embedded 字段，跳过嵌入式转换
+[2026-08-28 20:17:33,502][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:17:33,505][INFO][task_flow.py][L910][run_tasks_flow] | 开始连接设备...
+[2026-08-28 20:17:33,506][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 20:17:34,560][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 20:17:34,568][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x000001E20A6CACA0>, <app.core.runner.maafw.MaaFW(0x1e208e6e280) at 0x000001E20B509D40>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:17:34,569][DEBUG][__init__.py][L132][run] | #5 got callback functools.partial(<function MaaFW.connect_adb at 0x000001E20A6CACA0>, <app.core.runner.maafw.MaaFW(0x1e208e6e280) at 0x000001E20B509D40>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 20:17:34,569][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:17:34,573][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] Agent 服务启动
+[2026-08-28 20:17:34,576][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始连接设备
+[2026-08-28 20:17:34,579][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 自动检测ADB设备...
+[2026-08-28 20:17:35,099][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:17:40,561][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 20:17:40,561][INFO][monitor_interface.py][L819][_start_monitoring_impl] | [Monitor] 开始启动监控（自动）
+[2026-08-28 20:17:40,563][INFO][task_flow.py][L934][run_tasks_flow] | 设备连接成功
+[2026-08-28 20:17:40,563][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_CONNECT_SUCCESS (2)，未启用对应的发送时机
+[2026-08-28 20:17:40,576][INFO][task_flow.py][L2083][run_task] | 任务 '一键日常' 的执行信息: {'entry': '一键日常', 'pipeline_override': {}}
+[2026-08-28 20:17:40,576][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.run_task at 0x000001E20A6CBBA0>, <app.core.runner.maafw.MaaFW(0x1e208e6e280) at 0x000001E20B509D40>, '一键日常', {}, False) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:17:40,577][DEBUG][__init__.py][L132][run] | #4 got callback functools.partial(<function MaaFW.run_task at 0x000001E20A6CBBA0>, <app.core.runner.maafw.MaaFW(0x1e208e6e280) at 0x000001E20B509D40>, '一键日常', {}, False) with args () and kwargs {} from queue
+[2026-08-28 20:17:40,577][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:17:40,579][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:17:40,654][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 设备连接成功
+[2026-08-28 20:17:40,655][DEBUG][maafw.py][L1266][_start_one_agent] | 启动agent命令: ['python', './agent/main.py', 'd50bf07c-0224-44b8-8d8c-0d999b6f1275']
+[2026-08-28 20:17:40,655][DEBUG][maafw.py][L1273][_start_one_agent] | 注入 PI_* 环境变量: ['PI_INTERFACE_VERSION', 'PI_CLIENT_NAME', 'PI_CLIENT_VERSION', 'PI_CLIENT_LANGUAGE', 'PI_CLIENT_MAAFW_VERSION', 'PI_VERSION', 'PI_CONTROLLER', 'PI_RESOURCE']
+[2026-08-28 20:17:40,657][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:17:40,669][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 最快截图耗时: 13ms
+[2026-08-28 20:17:40,670][DEBUG][maafw.py][L1306][_start_one_agent] | agent 连接超时: 30000ms
+[2026-08-28 20:17:40,677][INFO][monitor_session.py][L176][run_startup_sequence] | [Monitor] 监控控制器未就绪，开始连接...
+[2026-08-28 20:17:40,677][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 20:17:41,655][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 20:17:41,663][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x000001E20A6CACA0>, <app.core.runner.maafw.MaaFW(0x1e23f6f3770) at 0x000001E20B5D8800>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:17:41,663][DEBUG][__init__.py][L132][run] | #6 got callback functools.partial(<function MaaFW.connect_adb at 0x000001E20A6CACA0>, <app.core.runner.maafw.MaaFW(0x1e23f6f3770) at 0x000001E20B5D8800>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 20:17:41,663][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:17:42,175][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:17:47,637][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 20:17:47,637][INFO][monitor_session.py][L106][start_loop] | [Monitor] 开始启动监控循环，截图速率: 30 FPS
+[2026-08-28 20:17:47,641][INFO][monitor_session.py][L204][_monitor_loop] | [Monitor] 监控循环已开始运行
+[2026-08-28 20:18:10,678][ERROR][maafw.py][L1314][_start_one_agent] | agent 连接超时 (30s)
+[2026-08-28 20:18:10,682][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:18:10,694][INFO][logoutput_widget.py][L458][add_structured_log] | [ERROR] MAA Agent 服务连接超时（30 秒）
+[2026-08-28 20:18:10,753][ERROR][task_flow.py][L2120][run_task] | 任务 '一键日常' 执行失败
+[2026-08-28 20:18:10,753][DEBUG][notice.py][L779][send_notice] | 发送通知 WHEN_TASK_FAILED (5): 任务失败 - 任务“一键日常”执行失败。
+[2026-08-28 20:18:10,754][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_TASK_SUCCESS (4)，未启用对应的发送时机
+[2026-08-28 20:18:10,754][DEBUG][notice.py][L779][send_notice] | 发送通知 WHEN_POST_TASK (6): 任务完成 - [20:17:32][信息]开始加载资源……
+[20:17:33][信息]Agent 服务启动
+[20:17:33][信息]开始连接设备
+[20:17:33][信息]自动检测ADB设备...
+[20:17:40][信息]设备连接成功
+[20:17:40][信息]最快截图耗时: 13ms
+[20:18:10][错误]MAA Agent 服务连接超时（30 秒）
+[20:18:10][信息]所有任务都已完成
+[2026-08-28 20:18:10,755][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001E20A6CBCE0>, <app.core.runner.maafw.MaaFW(0x1e208e6e280) at 0x000001E20B509D40>) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:18:10,756][DEBUG][__init__.py][L132][run] | #1 got callback functools.partial(<function MaaFW.stop_task at 0x000001E20A6CBCE0>, <app.core.runner.maafw.MaaFW(0x1e208e6e280) at 0x000001E20B509D40>) with args () and kwargs {} from queue
+[2026-08-28 20:18:10,756][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:18:10,763][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 所有任务都已完成
+[2026-08-28 20:18:10,768][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 停止任务中...
+[2026-08-28 20:18:10,768][INFO][monitor_session.py][L238][_monitor_loop] | [Monitor] 监控循环被取消，共捕获 670 帧
+[2026-08-28 20:18:10,768][INFO][monitor_session.py][L242][_monitor_loop] | [Monitor] 监控循环结束，共捕获 670 帧
+[2026-08-28 20:18:10,908][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001E20A6CBCE0>, <app.core.runner.maafw.MaaFW(0x1e23f6f3770) at 0x000001E20B5D8800>) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:18:10,908][DEBUG][__init__.py][L132][run] | #5 got callback functools.partial(<function MaaFW.stop_task at 0x000001E20A6CBCE0>, <app.core.runner.maafw.MaaFW(0x1e23f6f3770) at 0x000001E20B5D8800>) with args () and kwargs {} from queue
+[2026-08-28 20:18:10,908][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:18:11,115][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 20:18:11,118][INFO][task_flow.py][L2254][stop_task] | [RUN_RECORD] TASK_FLOW_STOP manual=False
+[2026-08-28 20:18:11,153][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 20:18:11,155][INFO][monitor_interface.py][L872][_stop_sequence] | [Monitor] 监控已停止
+[2026-08-28 20:18:34,262][INFO][logoutput_widget.py][L344][clear_log] | [日志清除] 已清除所有日志条目和缓存图像，序号已重置
+[2026-08-28 20:18:34,264][INFO][task_flow.py][L610][run_tasks_flow] | [RUN_RECORD] TASK_FLOW_START
+[2026-08-28 20:18:34,264][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_FLOW_STARTED (1)，未启用对应的发送时机
+[2026-08-28 20:18:34,268][INFO][task_flow.py][L199][_reload_interface_for_current_bundle] | 运行前按当前 bundle 刷新 interface: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:18:34,268][INFO][interface_manager.py][L786][reload] | 重新加载 interface 配置文件...
+[2026-08-28 20:18:34,269][DEBUG][interface_manager.py][L151][initialize] | 加载配置文件: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:18:34,270][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:18:34,270][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 20:18:34,271][INFO][interface_manager.py][L793][reload] | interface 配置文件重新加载完成
+[2026-08-28 20:18:34,271][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:18:34,272][INFO][task_flow.py][L736][run_tasks_flow] | 开始加载资源...
+[2026-08-28 20:18:34,272][DEBUG][task_flow.py][L1883][load_resources] | 加载资源: ['./resource']
+[2026-08-28 20:18:34,272][DEBUG][task_flow.py][L1933][load_resources] | 加载资源: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 20:18:34,277][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.load_resource at 0x000001E20A6CBA60>, <app.core.runner.maafw.MaaFW(0x1e208e6e280) at 0x000001E20B509D40>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:18:34,278][DEBUG][__init__.py][L132][run] | #6 got callback functools.partial(<function MaaFW.load_resource at 0x000001E20A6CBA60>, <app.core.runner.maafw.MaaFW(0x1e208e6e280) at 0x000001E20B509D40>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} from queue
+[2026-08-28 20:18:34,278][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:18:34,279][DEBUG][maafw.py][L1373][load_resource] | 设置自动
+[2026-08-28 20:18:34,281][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始加载资源……
+[2026-08-28 20:18:34,637][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:18:34,638][DEBUG][task_flow.py][L1948][load_resources] | 资源加载完成: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 20:18:34,638][INFO][task_flow.py][L741][run_tasks_flow] | 资源加载完成
+[2026-08-28 20:18:34,638][DEBUG][interface_manager.py][L603][_handle_embedded_agent] | agent 配置中没有 embedded 字段，跳过嵌入式转换
+[2026-08-28 20:18:34,638][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:18:34,640][INFO][task_flow.py][L910][run_tasks_flow] | 开始连接设备...
+[2026-08-28 20:18:34,642][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 20:18:35,697][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 20:18:35,710][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x000001E20A6CACA0>, <app.core.runner.maafw.MaaFW(0x1e208e6e280) at 0x000001E20B509D40>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:18:35,710][DEBUG][__init__.py][L132][run] | #8 got callback functools.partial(<function MaaFW.connect_adb at 0x000001E20A6CACA0>, <app.core.runner.maafw.MaaFW(0x1e208e6e280) at 0x000001E20B509D40>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 20:18:35,710][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:18:35,714][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] Agent 服务启动
+[2026-08-28 20:18:35,716][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始连接设备
+[2026-08-28 20:18:35,719][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 自动检测ADB设备...
+[2026-08-28 20:18:36,151][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:18:41,621][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 20:18:41,621][INFO][monitor_interface.py][L819][_start_monitoring_impl] | [Monitor] 开始启动监控（自动）
+[2026-08-28 20:18:41,623][INFO][task_flow.py][L934][run_tasks_flow] | 设备连接成功
+[2026-08-28 20:18:41,623][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_CONNECT_SUCCESS (2)，未启用对应的发送时机
+[2026-08-28 20:18:41,636][INFO][task_flow.py][L2083][run_task] | 任务 '一键日常' 的执行信息: {'entry': '一键日常', 'pipeline_override': {}}
+[2026-08-28 20:18:41,636][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.run_task at 0x000001E20A6CBBA0>, <app.core.runner.maafw.MaaFW(0x1e208e6e280) at 0x000001E20B509D40>, '一键日常', {}, False) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:18:41,636][DEBUG][__init__.py][L132][run] | #7 got callback functools.partial(<function MaaFW.run_task at 0x000001E20A6CBBA0>, <app.core.runner.maafw.MaaFW(0x1e208e6e280) at 0x000001E20B509D40>, '一键日常', {}, False) with args () and kwargs {} from queue
+[2026-08-28 20:18:41,636][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:18:41,639][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:18:41,645][DEBUG][maafw.py][L1266][_start_one_agent] | 启动agent命令: ['python', './agent/main.py', 'f1eadf4c-49df-4cd1-8269-5c3af86e1173']
+[2026-08-28 20:18:41,645][DEBUG][maafw.py][L1273][_start_one_agent] | 注入 PI_* 环境变量: ['PI_INTERFACE_VERSION', 'PI_CLIENT_NAME', 'PI_CLIENT_VERSION', 'PI_CLIENT_LANGUAGE', 'PI_CLIENT_MAAFW_VERSION', 'PI_VERSION', 'PI_CONTROLLER', 'PI_RESOURCE']
+[2026-08-28 20:18:41,652][DEBUG][maafw.py][L1306][_start_one_agent] | agent 连接超时: 30000ms
+[2026-08-28 20:18:41,669][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 设备连接成功
+[2026-08-28 20:18:41,671][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:18:41,682][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 最快截图耗时: 12ms
+[2026-08-28 20:18:41,688][INFO][monitor_session.py][L176][run_startup_sequence] | [Monitor] 监控控制器未就绪，开始连接...
+[2026-08-28 20:18:41,689][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 20:18:42,711][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 20:18:42,721][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x000001E20A6CACA0>, <app.core.runner.maafw.MaaFW(0x1e23f6f3770) at 0x000001E20B5D8800>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:18:42,721][DEBUG][__init__.py][L132][run] | #9 got callback functools.partial(<function MaaFW.connect_adb at 0x000001E20A6CACA0>, <app.core.runner.maafw.MaaFW(0x1e23f6f3770) at 0x000001E20B5D8800>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 20:18:42,721][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:18:43,202][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:18:48,668][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 20:18:48,668][INFO][monitor_session.py][L106][start_loop] | [Monitor] 开始启动监控循环，截图速率: 30 FPS
+[2026-08-28 20:18:48,668][INFO][monitor_session.py][L204][_monitor_loop] | [Monitor] 监控循环已开始运行
+[2026-08-28 20:19:11,656][ERROR][maafw.py][L1314][_start_one_agent] | agent 连接超时 (30s)
+[2026-08-28 20:19:11,658][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:19:11,671][INFO][logoutput_widget.py][L458][add_structured_log] | [ERROR] MAA Agent 服务连接超时（30 秒）
+[2026-08-28 20:19:11,701][ERROR][task_flow.py][L2120][run_task] | 任务 '一键日常' 执行失败
+[2026-08-28 20:19:11,701][DEBUG][notice.py][L779][send_notice] | 发送通知 WHEN_TASK_FAILED (5): 任务失败 - 任务“一键日常”执行失败。
+[2026-08-28 20:19:11,702][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_TASK_SUCCESS (4)，未启用对应的发送时机
+[2026-08-28 20:19:11,702][DEBUG][notice.py][L779][send_notice] | 发送通知 WHEN_POST_TASK (6): 任务完成 - [20:18:34][信息]开始加载资源……
+[20:18:34][信息]Agent 服务启动
+[20:18:34][信息]开始连接设备
+[20:18:34][信息]自动检测ADB设备...
+[20:18:41][信息]设备连接成功
+[20:18:41][信息]最快截图耗时: 12ms
+[20:19:11][错误]MAA Agent 服务连接超时（30 秒）
+[20:19:11][信息]所有任务都已完成
+[2026-08-28 20:19:11,704][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001E20A6CBCE0>, <app.core.runner.maafw.MaaFW(0x1e208e6e280) at 0x000001E20B509D40>) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:19:11,704][DEBUG][__init__.py][L132][run] | #4 got callback functools.partial(<function MaaFW.stop_task at 0x000001E20A6CBCE0>, <app.core.runner.maafw.MaaFW(0x1e208e6e280) at 0x000001E20B509D40>) with args () and kwargs {} from queue
+[2026-08-28 20:19:11,705][DEBUG][__init__.py][L147][run] | Setting Future result: <PIL.Image.Image image mode=RGB size=1280x720 at 0x1E240B98DD0>
+[2026-08-28 20:19:11,705][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:19:11,720][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 所有任务都已完成
+[2026-08-28 20:19:11,725][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 停止任务中...
+[2026-08-28 20:19:11,726][INFO][monitor_session.py][L238][_monitor_loop] | [Monitor] 监控循环被取消，共捕获 693 帧
+[2026-08-28 20:19:11,726][INFO][monitor_session.py][L242][_monitor_loop] | [Monitor] 监控循环结束，共捕获 693 帧
+[2026-08-28 20:19:11,857][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001E20A6CBCE0>, <app.core.runner.maafw.MaaFW(0x1e23f6f3770) at 0x000001E20B5D8800>) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:19:11,858][DEBUG][__init__.py][L132][run] | #3 got callback functools.partial(<function MaaFW.stop_task at 0x000001E20A6CBCE0>, <app.core.runner.maafw.MaaFW(0x1e23f6f3770) at 0x000001E20B5D8800>) with args () and kwargs {} from queue
+[2026-08-28 20:19:11,858][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:19:11,986][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 20:19:11,988][INFO][task_flow.py][L2254][stop_task] | [RUN_RECORD] TASK_FLOW_STOP manual=False
+[2026-08-28 20:19:12,103][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 20:19:12,105][INFO][monitor_interface.py][L872][_stop_sequence] | [Monitor] 监控已停止
+[2026-08-28 20:19:27,761][INFO][main_window.py][L1695][_generate_log_zip] |  日志压缩包生成完成：E:\GitHub\MFW-PyQt6-ui\report\Maa_Practice-v0.2.0-20260828_201927.zip
+[2026-08-28 20:19:27,773][INFO][main_window.py][L3129][show_info_bar] |  显示 InfoBar 提示：日志打包完成E:\GitHub\MFW-PyQt6-ui\report\Maa_Practice-v0.2.0-20260828_201927.zip
+[2026-08-28 20:19:53,883][DEBUG][hotkey_manager.py][L154][shutdown] | 已卸载所有 keyboard 钩子
+[2026-08-28 20:19:53,906][DEBUG][main_window.py][L3397][_stop_notice_thread] | 关闭发送线程
+[2026-08-28 20:19:53,906][DEBUG][_windows.py][L220][stop] | Stopping worker thread...
+[2026-08-28 20:19:53,916][DEBUG][_windows.py][L204][run] | Exiting thread
+[2026-08-28 20:19:53,917][DEBUG][main.py][L398][_run] | 关闭异步任务完成
+[2026-08-28 20:19:53,917][DEBUG][__init__.py][L222][shutdown] | Shutting down
+[2026-08-28 20:19:53,917][DEBUG][__init__.py][L161][wait] | Waiting for thread #1 to stop...
+[2026-08-28 20:19:53,917][DEBUG][__init__.py][L158][run] | Thread #1 stopped
+[2026-08-28 20:19:53,917][DEBUG][__init__.py][L158][run] | Thread #5 stopped
+[2026-08-28 20:19:53,917][DEBUG][__init__.py][L158][run] | Thread #6 stopped
+[2026-08-28 20:19:53,917][DEBUG][__init__.py][L158][run] | Thread #8 stopped
+[2026-08-28 20:19:53,917][DEBUG][__init__.py][L158][run] | Thread #9 stopped
+[2026-08-28 20:19:53,917][DEBUG][__init__.py][L158][run] | Thread #10 stopped
+[2026-08-28 20:19:53,917][DEBUG][__init__.py][L158][run] | Thread #7 stopped
+[2026-08-28 20:19:53,917][DEBUG][__init__.py][L158][run] | Thread #2 stopped
+[2026-08-28 20:19:53,917][DEBUG][__init__.py][L158][run] | Thread #4 stopped
+[2026-08-28 20:19:53,917][DEBUG][__init__.py][L158][run] | Thread #3 stopped
+[2026-08-28 20:19:53,918][DEBUG][__init__.py][L161][wait] | Waiting for thread #2 to stop...
+[2026-08-28 20:19:53,919][DEBUG][__init__.py][L161][wait] | Waiting for thread #3 to stop...
+[2026-08-28 20:19:53,919][DEBUG][__init__.py][L161][wait] | Waiting for thread #4 to stop...
+[2026-08-28 20:19:53,919][DEBUG][__init__.py][L161][wait] | Waiting for thread #5 to stop...
+[2026-08-28 20:19:53,919][DEBUG][__init__.py][L161][wait] | Waiting for thread #6 to stop...
+[2026-08-28 20:19:53,920][DEBUG][__init__.py][L161][wait] | Waiting for thread #7 to stop...
+[2026-08-28 20:19:53,920][DEBUG][__init__.py][L161][wait] | Waiting for thread #8 to stop...
+[2026-08-28 20:19:53,920][DEBUG][__init__.py][L161][wait] | Waiting for thread #9 to stop...
+[2026-08-28 20:19:53,920][DEBUG][__init__.py][L161][wait] | Waiting for thread #10 to stop...
+[2026-08-28 20:19:53,920][DEBUG][_windows.py][L78][close] | Closing
+[2026-08-28 20:22:02,822][DEBUG][config.py][L406][init_language_on_first_run] | 已设置语言偏好，跳过自动检测
+[2026-08-28 20:22:02,823][INFO][main.py][L181][_run] | MFW 版本:v4.6.16
+[2026-08-28 20:22:02,823][INFO][main.py][L182][_run] | 当前工作目录: E:\GitHub\MFW-PyQt6-ui
+[2026-08-28 20:22:02,824][DEBUG][crypto.py][L47][ensure_key_exists] | 加载密钥文件成功: C:\Users\xy315\AppData\Local\MFW-ChainFlow Assistant\k.ey
+[2026-08-28 20:22:06,305][DEBUG][registry.py][L37][register] | 注册选项类型: checkbox -> CheckBoxOptionItem
+[2026-08-28 20:22:06,305][DEBUG][registry.py][L37][register] | 注册选项类型: combobox -> ComboBoxOptionItem
+[2026-08-28 20:22:06,305][DEBUG][registry.py][L37][register] | 注册选项类型: select -> ComboBoxOptionItem
+[2026-08-28 20:22:06,305][DEBUG][registry.py][L37][register] | 注册选项类型: switch -> SwitchOptionItem
+[2026-08-28 20:22:06,305][DEBUG][registry.py][L37][register] | 注册选项类型: input -> InputOptionItem
+[2026-08-28 20:22:06,305][DEBUG][registry.py][L37][register] | 注册选项类型: inputs -> InputsOptionItem
+[2026-08-28 20:22:06,305][DEBUG][registry.py][L37][register] | 注册选项类型: hotkey -> HotkeyOptionItem
+[2026-08-28 20:22:06,306][DEBUG][registry.py][L153][register_default_types] | 已注册默认选项类型: combobox, select, switch, input, inputs, checkbox, hotkey
+[2026-08-28 20:22:08,285][INFO][main.py][L281][_run] | 加载简体中文翻译
+[2026-08-28 20:22:08,290][DEBUG][proactor_events.py][L631][__init__] | Using proactor: _IocpProactor
+[2026-08-28 20:22:08,290][INFO][gpu_cache.py][L119][initialize] | 开始初始化 GPU 信息缓存...
+[2026-08-28 20:22:08,408][INFO][gpu_cache.py][L127][initialize] | ✅ GPU 信息缓存成功，检测到 4 个 GPU 设备
+[2026-08-28 20:22:08,408][DEBUG][gpu_cache.py][L131][initialize] |   GPU 0: GameViewer Virtual Display Adapter
+[2026-08-28 20:22:08,408][DEBUG][gpu_cache.py][L131][initialize] |   GPU 1: Meta Virtual Monitor
+[2026-08-28 20:22:08,408][DEBUG][gpu_cache.py][L131][initialize] |   GPU 2: MuMu Virtual Display Adapter
+[2026-08-28 20:22:08,408][DEBUG][gpu_cache.py][L131][initialize] |   GPU 3: NVIDIA GeForce RTX 4060 Laptop GPU
+[2026-08-28 20:22:08,503][INFO][core.py][L214][_resolve_interface_path] | 从当前激活配置 c_03dbd5fd9ec649659e38efe4a47238bb 解析到 interface 路径: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:22:08,504][DEBUG][interface_manager.py][L151][initialize] | 加载配置文件: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:22:08,505][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:22:08,506][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 20:22:08,507][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:22:09,630][INFO][core.py][L174][__init__] | 资源版本: v0.2.0
+[2026-08-28 20:22:09,631][INFO][main_window.py][L3217][set_title] |  设置窗口标题：Maa_Practice v0.2.0
+[2026-08-28 20:22:11,359][DEBUG][character_controller.py][L311][switch_to_window_mode] | Character → window mode
+[2026-08-28 20:22:11,360][INFO][main_window.py][L1305][_init_character_controller] | 桌面小人控制器已初始化 (enabled=True, mode=window)
+[2026-08-28 20:22:11,440][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:22:11,441][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 20:22:11,458][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 一键日常: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:22:11,458][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 启动游戏: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:22:11,459][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 领取邮件: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:22:11,459][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 基地任务: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:22:11,459][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 JJC: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:22:11,459][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 日常刷体力: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:22:11,459][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 周本: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:22:11,666][INFO][main_window.py][L421][__init__] | 初始化 BundleInterface...
+[2026-08-28 20:22:11,677][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:22:11,678][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 20:22:11,684][INFO][main_window.py][L423][__init__] | BundleInterface 创建成功
+[2026-08-28 20:22:12,428][INFO][setting_interface.py][L2642][_init_updater] | 更新器初始化完成
+[2026-08-28 20:22:12,429][INFO][setting_interface.py][L2754][_refresh_local_update_package] | 本地更新元数据不存在，跳过本地包刷新
+[2026-08-28 20:22:12,429][INFO][main_window.py][L436][__init__] | 检查多资源适配状态（启动时）: False
+[2026-08-28 20:22:12,429][INFO][main_window.py][L452][__init__] | 多资源适配未开启，显示 Announcement，BundleInterface 不会显示在导航栏
+[2026-08-28 20:22:12,435][INFO][update.py][L1292][_init_run_context] | ==================================================
+[2026-08-28 20:22:12,446][INFO][update.py][L1293][_init_run_context] | 开始更新流程
+[2026-08-28 20:22:12,454][INFO][update.py][L1306][_init_run_context] | 当前版本: v0.2.0
+[2026-08-28 20:22:12,466][INFO][update.py][L1307][_init_run_context] | 资源ID: 
+[2026-08-28 20:22:12,466][INFO][update.py][L1308][_init_run_context] | GitHub URL: https://github.com/MaaXYZ/MaaPracticeBoilerplate
+[2026-08-28 20:22:12,470][INFO][update.py][L1310][_init_run_context] | ==================================================
+[2026-08-28 20:22:12,470][INFO][main_window.py][L468][__init__] | ✓ Announcement 已添加到导航栏
+[2026-08-28 20:22:12,470][INFO][update.py][L1331][run] | 以仅检查模式运行更新器（check_only=True）
+[2026-08-28 20:22:12,470][INFO][update.py][L1378][_run_check_only] | 以仅检查模式运行更新器（check_only=True）
+[2026-08-28 20:22:12,471][INFO][update.py][L1292][_init_run_context] | ==================================================
+[2026-08-28 20:22:12,471][INFO][update.py][L1293][_init_run_context] | 开始更新流程
+[2026-08-28 20:22:12,471][INFO][update.py][L1306][_init_run_context] | 当前版本: v0.2.0
+[2026-08-28 20:22:12,471][INFO][update.py][L1307][_init_run_context] | 资源ID: 
+[2026-08-28 20:22:12,471][INFO][update.py][L1308][_init_run_context] | GitHub URL: https://github.com/MaaXYZ/MaaPracticeBoilerplate
+[2026-08-28 20:22:12,471][INFO][update.py][L1310][_init_run_context] | ==================================================
+[2026-08-28 20:22:12,471][INFO][update.py][L1753][check_update] |   [检查更新] 开始检查...
+[2026-08-28 20:22:12,471][DEBUG][update.py][L1754][check_update] |   [检查更新] 资源ID: , CDK: 无
+[2026-08-28 20:22:12,471][DEBUG][update.py][L1764][check_update] |   [检查更新] 开关状态: force_full_download=False, force_github=False
+[2026-08-28 20:22:12,472][INFO][update.py][L1874][check_update] |   [检查更新] 因未配置 MirrorChyan 资源ID，直接跳过 Mirror 源
+[2026-08-28 20:22:12,472][INFO][update.py][L1877][check_update] |   [检查更新] 回退到 GitHub 最新版本检查
+[2026-08-28 20:22:12,472][INFO][update.py][L1882][check_update] |   [检查更新] 切换到 GitHub 源...
+[2026-08-28 20:22:12,472][DEBUG][update.py][L1899][check_update] |   [检查更新] GitHub API: https://api.github.com/repos/MaaXYZ/MaaPracticeBoilerplate/releases/latest
+[2026-08-28 20:22:12,472][INFO][update.py][L842][github_check] | 开始GitHub更新检查: https://api.github.com/repos/MaaXYZ/MaaPracticeBoilerplate/releases/latest
+[2026-08-28 20:22:12,543][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：ctrl+f1 -> start task
+[2026-08-28 20:22:12,543][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：alt+f1 -> stop task
+[2026-08-28 20:22:12,544][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：ctrl+f1 -> start task
+[2026-08-28 20:22:12,544][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：alt+f1 -> stop task
+[2026-08-28 20:22:12,544][INFO][main_window.py][L2787][_bootstrap_auto_update_and_run] | 自动更新未开启，改为检查并执行 bundle 自动更新
+[2026-08-28 20:22:12,544][INFO][main_window.py][L2968][_check_and_start_bundle_update] | Bundle 自动更新未开启，直接发送所有更新完成信号
+[2026-08-28 20:22:12,544][INFO][main_window.py][L3001][_on_all_updates_completed] | 收到所有更新完成信号
+[2026-08-28 20:22:12,544][INFO][main_window.py][L520][__init__] |  主界面初始化完成。
+[2026-08-28 20:22:12,544][DEBUG][_windows.py][L215][start] | Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+[2026-08-28 20:22:12,545][DEBUG][_windows.py][L195][run] | Thread started
+[2026-08-28 20:22:12,815][INFO][list_item.py][L420][_get_display_name] | 任务显示: 一键日常 -> 一键日常
+[2026-08-28 20:22:12,834][INFO][list_item.py][L420][_get_display_name] | 任务显示: 启动游戏 -> 启动游戏
+[2026-08-28 20:22:12,852][INFO][list_item.py][L420][_get_display_name] | 任务显示: 领取邮件 -> 领取邮件
+[2026-08-28 20:22:12,871][INFO][list_item.py][L420][_get_display_name] | 任务显示: 基地任务 -> 基地任务
+[2026-08-28 20:22:12,891][INFO][list_item.py][L420][_get_display_name] | 任务显示: JJC -> JJC
+[2026-08-28 20:22:12,910][INFO][list_item.py][L420][_get_display_name] | 任务显示: 日常刷体力 -> 日常刷体力
+[2026-08-28 20:22:12,928][INFO][list_item.py][L420][_get_display_name] | 任务显示: 周本 -> 周本
+[2026-08-28 20:22:13,415][ERROR][update.py][L740][_github_http_error_handler] | GitHub更新检查失败（HTTP错误）: 404 Client Error: Not Found for url: https://api.github.com/repos/MaaXYZ/MaaPracticeBoilerplate/releases/latest
+[2026-08-28 20:22:13,416][WARNING][update.py][L847][github_check] | GitHub请求失败: GitHub 请求被拒绝，请检查项目 URL 或权限。 (HTTP 4xx)
+[2026-08-28 20:22:13,417][INFO][update.py][L1913][check_update] |   [检查更新] GitHub 返回状态: failed
+[2026-08-28 20:22:18,611][INFO][task_flow.py][L610][run_tasks_flow] | [RUN_RECORD] TASK_FLOW_START
+[2026-08-28 20:22:18,611][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_FLOW_STARTED (1)，未启用对应的发送时机
+[2026-08-28 20:22:18,615][INFO][task_flow.py][L199][_reload_interface_for_current_bundle] | 运行前按当前 bundle 刷新 interface: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:22:18,615][INFO][interface_manager.py][L786][reload] | 重新加载 interface 配置文件...
+[2026-08-28 20:22:18,616][DEBUG][interface_manager.py][L151][initialize] | 加载配置文件: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:22:18,617][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:22:18,618][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 20:22:18,618][INFO][interface_manager.py][L793][reload] | interface 配置文件重新加载完成
+[2026-08-28 20:22:18,618][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:22:18,619][INFO][task_flow.py][L736][run_tasks_flow] | 开始加载资源...
+[2026-08-28 20:22:18,619][DEBUG][task_flow.py][L1883][load_resources] | 加载资源: ['./resource']
+[2026-08-28 20:22:18,619][DEBUG][task_flow.py][L1933][load_resources] | 加载资源: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 20:22:18,625][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.load_resource at 0x0000027E2C32FA60>, <app.core.runner.maafw.MaaFW(0x27e2a9a0690) at 0x0000027E2D168B80>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:22:18,627][DEBUG][__init__.py][L132][run] | #1 got callback functools.partial(<function MaaFW.load_resource at 0x0000027E2C32FA60>, <app.core.runner.maafw.MaaFW(0x27e2a9a0690) at 0x0000027E2D168B80>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} from queue
+[2026-08-28 20:22:18,627][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:22:18,630][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始加载资源……
+[2026-08-28 20:22:18,645][DEBUG][maafw.py][L1373][load_resource] | 设置自动
+[2026-08-28 20:22:19,040][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:22:19,040][DEBUG][task_flow.py][L1948][load_resources] | 资源加载完成: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 20:22:19,040][INFO][task_flow.py][L741][run_tasks_flow] | 资源加载完成
+[2026-08-28 20:22:19,042][DEBUG][interface_manager.py][L603][_handle_embedded_agent] | agent 配置中没有 embedded 字段，跳过嵌入式转换
+[2026-08-28 20:22:19,042][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:22:19,044][INFO][task_flow.py][L910][run_tasks_flow] | 开始连接设备...
+[2026-08-28 20:22:19,046][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 20:22:20,064][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 20:22:20,075][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x0000027E2C32ECA0>, <app.core.runner.maafw.MaaFW(0x27e2a9a0690) at 0x0000027E2D168B80>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:22:20,075][DEBUG][__init__.py][L132][run] | #2 got callback functools.partial(<function MaaFW.connect_adb at 0x0000027E2C32ECA0>, <app.core.runner.maafw.MaaFW(0x27e2a9a0690) at 0x0000027E2D168B80>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 20:22:20,075][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:22:20,079][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] Agent 服务启动
+[2026-08-28 20:22:20,082][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始连接设备
+[2026-08-28 20:22:20,085][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 自动检测ADB设备...
+[2026-08-28 20:22:20,561][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:22:26,028][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 20:22:26,028][INFO][monitor_interface.py][L819][_start_monitoring_impl] | [Monitor] 开始启动监控（自动）
+[2026-08-28 20:22:26,030][INFO][task_flow.py][L934][run_tasks_flow] | 设备连接成功
+[2026-08-28 20:22:26,030][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_CONNECT_SUCCESS (2)，未启用对应的发送时机
+[2026-08-28 20:22:26,046][INFO][task_flow.py][L2083][run_task] | 任务 '一键日常' 的执行信息: {'entry': '一键日常', 'pipeline_override': {}}
+[2026-08-28 20:22:26,047][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.run_task at 0x0000027E2C32FBA0>, <app.core.runner.maafw.MaaFW(0x27e2a9a0690) at 0x0000027E2D168B80>, '一键日常', {}, False) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:22:26,047][DEBUG][__init__.py][L132][run] | #3 got callback functools.partial(<function MaaFW.run_task at 0x0000027E2C32FBA0>, <app.core.runner.maafw.MaaFW(0x27e2a9a0690) at 0x0000027E2D168B80>, '一键日常', {}, False) with args () and kwargs {} from queue
+[2026-08-28 20:22:26,047][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:22:26,050][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:22:26,057][DEBUG][maafw.py][L1266][_start_one_agent] | 启动agent命令: ['python', './agent/main.py', '34fc4ef7-cba9-40c6-93af-e8f4eaa9c217']
+[2026-08-28 20:22:26,057][DEBUG][maafw.py][L1273][_start_one_agent] | 注入 PI_* 环境变量: ['PI_INTERFACE_VERSION', 'PI_CLIENT_NAME', 'PI_CLIENT_VERSION', 'PI_CLIENT_LANGUAGE', 'PI_CLIENT_MAAFW_VERSION', 'PI_VERSION', 'PI_CONTROLLER', 'PI_RESOURCE']
+[2026-08-28 20:22:26,065][DEBUG][maafw.py][L1306][_start_one_agent] | agent 连接超时: 30000ms
+[2026-08-28 20:22:26,089][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 设备连接成功
+[2026-08-28 20:22:26,092][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:22:26,103][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 最快截图耗时: 16ms
+[2026-08-28 20:22:26,111][INFO][monitor_session.py][L176][run_startup_sequence] | [Monitor] 监控控制器未就绪，开始连接...
+[2026-08-28 20:22:26,111][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 20:22:27,100][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 20:22:27,209][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x0000027E2C32ECA0>, <app.core.runner.maafw.MaaFW(0x27e61505c50) at 0x0000027E2D219A00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:22:27,209][DEBUG][__init__.py][L132][run] | #5 got callback functools.partial(<function MaaFW.connect_adb at 0x0000027E2C32ECA0>, <app.core.runner.maafw.MaaFW(0x27e61505c50) at 0x0000027E2D219A00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 20:22:27,209][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:22:27,745][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:22:33,213][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 20:22:33,214][INFO][monitor_session.py][L106][start_loop] | [Monitor] 开始启动监控循环，截图速率: 30 FPS
+[2026-08-28 20:22:33,214][INFO][monitor_session.py][L204][_monitor_loop] | [Monitor] 监控循环已开始运行
+[2026-08-28 20:22:56,069][ERROR][maafw.py][L1314][_start_one_agent] | agent 连接超时 (30s)
+[2026-08-28 20:22:56,075][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:22:56,086][INFO][logoutput_widget.py][L458][add_structured_log] | [ERROR] MAA Agent 服务连接超时（30 秒）
+[2026-08-28 20:22:56,121][ERROR][task_flow.py][L2120][run_task] | 任务 '一键日常' 执行失败
+[2026-08-28 20:22:56,121][DEBUG][notice.py][L779][send_notice] | 发送通知 WHEN_TASK_FAILED (5): 任务失败 - 任务“一键日常”执行失败。
+[2026-08-28 20:22:56,121][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_TASK_SUCCESS (4)，未启用对应的发送时机
+[2026-08-28 20:22:56,121][DEBUG][notice.py][L779][send_notice] | 发送通知 WHEN_POST_TASK (6): 任务完成 - [20:22:18][信息]开始加载资源……
+[20:22:19][信息]Agent 服务启动
+[20:22:19][信息]开始连接设备
+[20:22:19][信息]自动检测ADB设备...
+[20:22:26][信息]设备连接成功
+[20:22:26][信息]最快截图耗时: 16ms
+[20:22:56][错误]MAA Agent 服务连接超时（30 秒）
+[20:22:56][信息]所有任务都已完成
+[2026-08-28 20:22:56,123][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x0000027E2C32FCE0>, <app.core.runner.maafw.MaaFW(0x27e2a9a0690) at 0x0000027E2D168B80>) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:22:56,124][DEBUG][__init__.py][L147][run] | Setting Future result: <PIL.Image.Image image mode=RGB size=1280x720 at 0x27E66750BD0>
+[2026-08-28 20:22:56,124][DEBUG][__init__.py][L132][run] | #1 got callback functools.partial(<function MaaFW.stop_task at 0x0000027E2C32FCE0>, <app.core.runner.maafw.MaaFW(0x27e2a9a0690) at 0x0000027E2D168B80>) with args () and kwargs {} from queue
+[2026-08-28 20:22:56,124][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:22:56,138][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 所有任务都已完成
+[2026-08-28 20:22:56,144][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 停止任务中...
+[2026-08-28 20:22:56,144][INFO][monitor_session.py][L238][_monitor_loop] | [Monitor] 监控循环被取消，共捕获 688 帧
+[2026-08-28 20:22:56,144][INFO][monitor_session.py][L242][_monitor_loop] | [Monitor] 监控循环结束，共捕获 688 帧
+[2026-08-28 20:22:56,278][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x0000027E2C32FCE0>, <app.core.runner.maafw.MaaFW(0x27e61505c50) at 0x0000027E2D219A00>) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:22:56,278][DEBUG][__init__.py][L132][run] | #2 got callback functools.partial(<function MaaFW.stop_task at 0x0000027E2C32FCE0>, <app.core.runner.maafw.MaaFW(0x27e61505c50) at 0x0000027E2D219A00>) with args () and kwargs {} from queue
+[2026-08-28 20:22:56,279][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:22:56,408][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 20:22:56,411][INFO][task_flow.py][L2254][stop_task] | [RUN_RECORD] TASK_FLOW_STOP manual=False
+[2026-08-28 20:22:56,524][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 20:22:56,527][INFO][monitor_interface.py][L872][_stop_sequence] | [Monitor] 监控已停止
+[2026-08-28 20:23:30,225][DEBUG][hotkey_manager.py][L154][shutdown] | 已卸载所有 keyboard 钩子
+[2026-08-28 20:23:30,244][DEBUG][main_window.py][L3397][_stop_notice_thread] | 关闭发送线程
+[2026-08-28 20:23:30,244][DEBUG][_windows.py][L220][stop] | Stopping worker thread...
+[2026-08-28 20:23:30,252][DEBUG][_windows.py][L204][run] | Exiting thread
+[2026-08-28 20:23:30,253][DEBUG][main.py][L398][_run] | 关闭异步任务完成
+[2026-08-28 20:23:30,253][DEBUG][__init__.py][L222][shutdown] | Shutting down
+[2026-08-28 20:23:30,254][DEBUG][__init__.py][L161][wait] | Waiting for thread #1 to stop...
+[2026-08-28 20:23:30,254][DEBUG][__init__.py][L158][run] | Thread #5 stopped
+[2026-08-28 20:23:30,254][DEBUG][__init__.py][L158][run] | Thread #6 stopped
+[2026-08-28 20:23:30,254][DEBUG][__init__.py][L158][run] | Thread #8 stopped
+[2026-08-28 20:23:30,254][DEBUG][__init__.py][L158][run] | Thread #7 stopped
+[2026-08-28 20:23:30,254][DEBUG][__init__.py][L158][run] | Thread #9 stopped
+[2026-08-28 20:23:30,254][DEBUG][__init__.py][L158][run] | Thread #10 stopped
+[2026-08-28 20:23:30,254][DEBUG][__init__.py][L158][run] | Thread #3 stopped
+[2026-08-28 20:23:30,254][DEBUG][__init__.py][L158][run] | Thread #4 stopped
+[2026-08-28 20:23:30,254][DEBUG][__init__.py][L158][run] | Thread #1 stopped
+[2026-08-28 20:23:30,254][DEBUG][__init__.py][L158][run] | Thread #2 stopped
+[2026-08-28 20:23:30,257][DEBUG][__init__.py][L161][wait] | Waiting for thread #2 to stop...
+[2026-08-28 20:23:30,257][DEBUG][__init__.py][L161][wait] | Waiting for thread #3 to stop...
+[2026-08-28 20:23:30,257][DEBUG][__init__.py][L161][wait] | Waiting for thread #4 to stop...
+[2026-08-28 20:23:30,258][DEBUG][__init__.py][L161][wait] | Waiting for thread #5 to stop...
+[2026-08-28 20:23:30,258][DEBUG][__init__.py][L161][wait] | Waiting for thread #6 to stop...
+[2026-08-28 20:23:30,258][DEBUG][__init__.py][L161][wait] | Waiting for thread #7 to stop...
+[2026-08-28 20:23:30,258][DEBUG][__init__.py][L161][wait] | Waiting for thread #8 to stop...
+[2026-08-28 20:23:30,258][DEBUG][__init__.py][L161][wait] | Waiting for thread #9 to stop...
+[2026-08-28 20:23:30,258][DEBUG][__init__.py][L161][wait] | Waiting for thread #10 to stop...
+[2026-08-28 20:23:30,258][DEBUG][_windows.py][L78][close] | Closing
+[2026-08-28 20:53:48,343][DEBUG][config.py][L406][init_language_on_first_run] | 已设置语言偏好，跳过自动检测
+[2026-08-28 20:53:48,362][INFO][main.py][L181][_run] | MFW 版本:v4.6.16
+[2026-08-28 20:53:48,362][INFO][main.py][L182][_run] | 当前工作目录: E:\GitHub\MFW-PyQt6-ui
+[2026-08-28 20:53:48,363][DEBUG][crypto.py][L47][ensure_key_exists] | 加载密钥文件成功: C:\Users\xy315\AppData\Local\MFW-ChainFlow Assistant\k.ey
+[2026-08-28 20:53:51,740][DEBUG][registry.py][L37][register] | 注册选项类型: checkbox -> CheckBoxOptionItem
+[2026-08-28 20:53:51,740][DEBUG][registry.py][L37][register] | 注册选项类型: combobox -> ComboBoxOptionItem
+[2026-08-28 20:53:51,740][DEBUG][registry.py][L37][register] | 注册选项类型: select -> ComboBoxOptionItem
+[2026-08-28 20:53:51,740][DEBUG][registry.py][L37][register] | 注册选项类型: switch -> SwitchOptionItem
+[2026-08-28 20:53:51,740][DEBUG][registry.py][L37][register] | 注册选项类型: input -> InputOptionItem
+[2026-08-28 20:53:51,740][DEBUG][registry.py][L37][register] | 注册选项类型: inputs -> InputsOptionItem
+[2026-08-28 20:53:51,740][DEBUG][registry.py][L37][register] | 注册选项类型: hotkey -> HotkeyOptionItem
+[2026-08-28 20:53:51,740][DEBUG][registry.py][L153][register_default_types] | 已注册默认选项类型: combobox, select, switch, input, inputs, checkbox, hotkey
+[2026-08-28 20:53:53,687][INFO][main.py][L281][_run] | 加载简体中文翻译
+[2026-08-28 20:53:53,692][DEBUG][proactor_events.py][L631][__init__] | Using proactor: _IocpProactor
+[2026-08-28 20:53:53,693][INFO][gpu_cache.py][L119][initialize] | 开始初始化 GPU 信息缓存...
+[2026-08-28 20:53:53,825][INFO][gpu_cache.py][L127][initialize] | ✅ GPU 信息缓存成功，检测到 4 个 GPU 设备
+[2026-08-28 20:53:53,825][DEBUG][gpu_cache.py][L131][initialize] |   GPU 0: GameViewer Virtual Display Adapter
+[2026-08-28 20:53:53,826][DEBUG][gpu_cache.py][L131][initialize] |   GPU 1: Meta Virtual Monitor
+[2026-08-28 20:53:53,826][DEBUG][gpu_cache.py][L131][initialize] |   GPU 2: MuMu Virtual Display Adapter
+[2026-08-28 20:53:53,826][DEBUG][gpu_cache.py][L131][initialize] |   GPU 3: NVIDIA GeForce RTX 4060 Laptop GPU
+[2026-08-28 20:53:53,966][INFO][core.py][L214][_resolve_interface_path] | 从当前激活配置 c_03dbd5fd9ec649659e38efe4a47238bb 解析到 interface 路径: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:53:53,966][DEBUG][interface_manager.py][L151][initialize] | 加载配置文件: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:53:53,967][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:53:53,968][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 20:53:53,969][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:53:55,179][INFO][core.py][L174][__init__] | 资源版本: 1.0.0
+[2026-08-28 20:53:55,180][INFO][main_window.py][L3217][set_title] |  设置窗口标题：MaaXXX 1.0.0
+[2026-08-28 20:53:56,965][DEBUG][character_controller.py][L311][switch_to_window_mode] | Character → window mode
+[2026-08-28 20:53:56,965][INFO][main_window.py][L1305][_init_character_controller] | 桌面小人控制器已初始化 (enabled=True, mode=window)
+[2026-08-28 20:53:57,058][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:53:57,059][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 20:53:57,077][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 一键日常: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:53:57,078][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 启动游戏: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:53:57,078][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 领取邮件: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:53:57,078][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 基地任务: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:53:57,078][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 JJC: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:53:57,078][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 日常刷体力: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:53:57,078][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 周本: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 20:53:57,293][INFO][main_window.py][L421][__init__] | 初始化 BundleInterface...
+[2026-08-28 20:53:57,305][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:53:57,306][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 20:53:57,312][INFO][main_window.py][L423][__init__] | BundleInterface 创建成功
+[2026-08-28 20:53:58,054][INFO][setting_interface.py][L2642][_init_updater] | 更新器初始化完成
+[2026-08-28 20:53:58,054][INFO][setting_interface.py][L2754][_refresh_local_update_package] | 本地更新元数据不存在，跳过本地包刷新
+[2026-08-28 20:53:58,054][INFO][main_window.py][L436][__init__] | 检查多资源适配状态（启动时）: False
+[2026-08-28 20:53:58,054][INFO][main_window.py][L452][__init__] | 多资源适配未开启，显示 Announcement，BundleInterface 不会显示在导航栏
+[2026-08-28 20:53:58,061][INFO][update.py][L1292][_init_run_context] | ==================================================
+[2026-08-28 20:53:58,077][INFO][update.py][L1293][_init_run_context] | 开始更新流程
+[2026-08-28 20:53:58,083][INFO][update.py][L1306][_init_run_context] | 当前版本: v1.0.0
+[2026-08-28 20:53:58,088][INFO][update.py][L1307][_init_run_context] | 资源ID: 
+[2026-08-28 20:53:58,089][INFO][update.py][L1308][_init_run_context] | GitHub URL: https://github.com/MaaXYZ/MaaPracticeBoilerplate
+[2026-08-28 20:53:58,089][INFO][update.py][L1310][_init_run_context] | ==================================================
+[2026-08-28 20:53:58,093][INFO][update.py][L1331][run] | 以仅检查模式运行更新器（check_only=True）
+[2026-08-28 20:53:58,093][INFO][main_window.py][L468][__init__] | ✓ Announcement 已添加到导航栏
+[2026-08-28 20:53:58,093][INFO][update.py][L1378][_run_check_only] | 以仅检查模式运行更新器（check_only=True）
+[2026-08-28 20:53:58,093][INFO][update.py][L1292][_init_run_context] | ==================================================
+[2026-08-28 20:53:58,094][INFO][update.py][L1293][_init_run_context] | 开始更新流程
+[2026-08-28 20:53:58,094][INFO][update.py][L1306][_init_run_context] | 当前版本: v1.0.0
+[2026-08-28 20:53:58,094][INFO][update.py][L1307][_init_run_context] | 资源ID: 
+[2026-08-28 20:53:58,095][INFO][update.py][L1308][_init_run_context] | GitHub URL: https://github.com/MaaXYZ/MaaPracticeBoilerplate
+[2026-08-28 20:53:58,095][INFO][update.py][L1310][_init_run_context] | ==================================================
+[2026-08-28 20:53:58,095][INFO][update.py][L1753][check_update] |   [检查更新] 开始检查...
+[2026-08-28 20:53:58,095][DEBUG][update.py][L1754][check_update] |   [检查更新] 资源ID: , CDK: 无
+[2026-08-28 20:53:58,095][DEBUG][update.py][L1764][check_update] |   [检查更新] 开关状态: force_full_download=False, force_github=False
+[2026-08-28 20:53:58,095][INFO][update.py][L1874][check_update] |   [检查更新] 因未配置 MirrorChyan 资源ID，直接跳过 Mirror 源
+[2026-08-28 20:53:58,095][INFO][update.py][L1877][check_update] |   [检查更新] 回退到 GitHub 最新版本检查
+[2026-08-28 20:53:58,095][INFO][update.py][L1882][check_update] |   [检查更新] 切换到 GitHub 源...
+[2026-08-28 20:53:58,095][DEBUG][update.py][L1899][check_update] |   [检查更新] GitHub API: https://api.github.com/repos/MaaXYZ/MaaPracticeBoilerplate/releases/latest
+[2026-08-28 20:53:58,095][INFO][update.py][L842][github_check] | 开始GitHub更新检查: https://api.github.com/repos/MaaXYZ/MaaPracticeBoilerplate/releases/latest
+[2026-08-28 20:53:58,169][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：ctrl+f1 -> start task
+[2026-08-28 20:53:58,169][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：alt+f1 -> stop task
+[2026-08-28 20:53:58,169][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：ctrl+f1 -> start task
+[2026-08-28 20:53:58,169][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：alt+f1 -> stop task
+[2026-08-28 20:53:58,169][INFO][main_window.py][L2787][_bootstrap_auto_update_and_run] | 自动更新未开启，改为检查并执行 bundle 自动更新
+[2026-08-28 20:53:58,169][INFO][main_window.py][L2968][_check_and_start_bundle_update] | Bundle 自动更新未开启，直接发送所有更新完成信号
+[2026-08-28 20:53:58,169][INFO][main_window.py][L3001][_on_all_updates_completed] | 收到所有更新完成信号
+[2026-08-28 20:53:58,170][INFO][main_window.py][L520][__init__] |  主界面初始化完成。
+[2026-08-28 20:53:58,170][DEBUG][_windows.py][L215][start] | Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+[2026-08-28 20:53:58,170][DEBUG][_windows.py][L195][run] | Thread started
+[2026-08-28 20:53:58,310][INFO][list_item.py][L420][_get_display_name] | 任务显示: 一键日常 -> 一键日常
+[2026-08-28 20:53:58,323][INFO][list_item.py][L420][_get_display_name] | 任务显示: 启动游戏 -> 启动游戏
+[2026-08-28 20:53:58,333][INFO][list_item.py][L420][_get_display_name] | 任务显示: 领取邮件 -> 领取邮件
+[2026-08-28 20:53:58,344][INFO][list_item.py][L420][_get_display_name] | 任务显示: 基地任务 -> 基地任务
+[2026-08-28 20:53:58,354][INFO][list_item.py][L420][_get_display_name] | 任务显示: JJC -> JJC
+[2026-08-28 20:53:58,365][INFO][list_item.py][L420][_get_display_name] | 任务显示: 日常刷体力 -> 日常刷体力
+[2026-08-28 20:53:58,375][INFO][list_item.py][L420][_get_display_name] | 任务显示: 周本 -> 周本
+[2026-08-28 20:54:00,445][ERROR][update.py][L740][_github_http_error_handler] | GitHub更新检查失败（HTTP错误）: 404 Client Error: Not Found for url: https://api.github.com/repos/MaaXYZ/MaaPracticeBoilerplate/releases/latest
+[2026-08-28 20:54:00,446][WARNING][update.py][L847][github_check] | GitHub请求失败: GitHub 请求被拒绝，请检查项目 URL 或权限。 (HTTP 4xx)
+[2026-08-28 20:54:00,446][INFO][update.py][L1913][check_update] |   [检查更新] GitHub 返回状态: failed
+[2026-08-28 20:54:03,821][INFO][task_flow.py][L610][run_tasks_flow] | [RUN_RECORD] TASK_FLOW_START
+[2026-08-28 20:54:03,822][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_FLOW_STARTED (1)，未启用对应的发送时机
+[2026-08-28 20:54:03,826][INFO][task_flow.py][L199][_reload_interface_for_current_bundle] | 运行前按当前 bundle 刷新 interface: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:54:03,826][INFO][interface_manager.py][L786][reload] | 重新加载 interface 配置文件...
+[2026-08-28 20:54:03,826][DEBUG][interface_manager.py][L151][initialize] | 加载配置文件: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:54:03,828][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:54:03,828][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 20:54:03,828][INFO][interface_manager.py][L793][reload] | interface 配置文件重新加载完成
+[2026-08-28 20:54:03,829][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:54:03,829][INFO][task_flow.py][L736][run_tasks_flow] | 开始加载资源...
+[2026-08-28 20:54:03,830][DEBUG][task_flow.py][L1883][load_resources] | 加载资源: ['./resource']
+[2026-08-28 20:54:03,830][DEBUG][task_flow.py][L1933][load_resources] | 加载资源: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 20:54:03,981][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.load_resource at 0x000001470C80BA60>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:54:03,982][DEBUG][__init__.py][L132][run] | #1 got callback functools.partial(<function MaaFW.load_resource at 0x000001470C80BA60>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} from queue
+[2026-08-28 20:54:03,982][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:54:03,988][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始加载资源……
+[2026-08-28 20:54:04,027][DEBUG][maafw.py][L1373][load_resource] | 设置自动
+[2026-08-28 20:54:04,406][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:54:04,406][DEBUG][task_flow.py][L1948][load_resources] | 资源加载完成: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 20:54:04,407][INFO][task_flow.py][L741][run_tasks_flow] | 资源加载完成
+[2026-08-28 20:54:04,554][DEBUG][interface_manager.py][L603][_handle_embedded_agent] | agent 配置中没有 embedded 字段，跳过嵌入式转换
+[2026-08-28 20:54:04,555][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:54:04,557][INFO][task_flow.py][L910][run_tasks_flow] | 开始连接设备...
+[2026-08-28 20:54:04,559][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 20:54:05,946][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 20:54:05,954][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:54:05,955][DEBUG][__init__.py][L132][run] | #2 got callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 20:54:05,955][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:54:05,959][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] Agent 服务启动
+[2026-08-28 20:54:05,961][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始连接设备
+[2026-08-28 20:54:05,964][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 自动检测ADB设备...
+[2026-08-28 20:54:06,527][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:54:11,997][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 20:54:11,997][INFO][monitor_interface.py][L819][_start_monitoring_impl] | [Monitor] 开始启动监控（自动）
+[2026-08-28 20:54:11,999][INFO][task_flow.py][L934][run_tasks_flow] | 设备连接成功
+[2026-08-28 20:54:11,999][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_CONNECT_SUCCESS (2)，未启用对应的发送时机
+[2026-08-28 20:54:12,018][INFO][task_flow.py][L2083][run_task] | 任务 '一键日常' 的执行信息: {'entry': '一键日常', 'pipeline_override': {}}
+[2026-08-28 20:54:12,018][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.run_task at 0x000001470C80BBA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, '一键日常', {}, False) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:54:12,019][DEBUG][__init__.py][L132][run] | #3 got callback functools.partial(<function MaaFW.run_task at 0x000001470C80BBA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, '一键日常', {}, False) with args () and kwargs {} from queue
+[2026-08-28 20:54:12,019][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:54:12,022][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:54:12,033][DEBUG][maafw.py][L1266][_start_one_agent] | 启动agent命令: ['python', './agent/main.py', '85c4180c-55cc-4ee6-b137-bd60d99a435a']
+[2026-08-28 20:54:12,033][DEBUG][maafw.py][L1273][_start_one_agent] | 注入 PI_* 环境变量: ['PI_INTERFACE_VERSION', 'PI_CLIENT_NAME', 'PI_CLIENT_VERSION', 'PI_CLIENT_LANGUAGE', 'PI_CLIENT_MAAFW_VERSION', 'PI_VERSION', 'PI_CONTROLLER', 'PI_RESOURCE']
+[2026-08-28 20:54:12,041][DEBUG][maafw.py][L1306][_start_one_agent] | agent 连接超时: 30000ms
+[2026-08-28 20:54:12,074][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 设备连接成功
+[2026-08-28 20:54:12,077][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:54:12,088][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 最快截图耗时: 19ms
+[2026-08-28 20:54:12,095][INFO][monitor_session.py][L176][run_startup_sequence] | [Monitor] 监控控制器未就绪，开始连接...
+[2026-08-28 20:54:12,095][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 20:54:13,111][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 20:54:13,118][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:54:13,118][DEBUG][__init__.py][L132][run] | #4 got callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 20:54:13,119][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:54:13,134][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:54:13,146][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 执行任务: 一键日常
+[2026-08-28 20:54:13,672][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:54:19,139][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 20:54:19,139][INFO][monitor_session.py][L106][start_loop] | [Monitor] 开始启动监控循环，截图速率: 30 FPS
+[2026-08-28 20:54:19,139][INFO][monitor_session.py][L204][_monitor_loop] | [Monitor] 监控循环已开始运行
+[2026-08-28 20:54:58,225][INFO][task_flow.py][L458][_save_stop_screenshot] | 停止截图已保存: debug\stop\stop_20260828_205458_manual.png
+[2026-08-28 20:54:58,225][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:54:58,225][DEBUG][__init__.py][L132][run] | #2 got callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} from queue
+[2026-08-28 20:54:58,225][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:54:58,226][DEBUG][__init__.py][L147][run] | Setting Future result: False
+[2026-08-28 20:54:58,228][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:54:58,258][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 停止任务中...
+[2026-08-28 20:54:58,258][INFO][monitor_session.py][L238][_monitor_loop] | [Monitor] 监控循环被取消，共捕获 1149 帧
+[2026-08-28 20:54:58,258][INFO][monitor_session.py][L242][_monitor_loop] | [Monitor] 监控循环结束，共捕获 1149 帧
+[2026-08-28 20:54:58,267][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:54:58,267][DEBUG][__init__.py][L132][run] | #4 got callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>) with args () and kwargs {} from queue
+[2026-08-28 20:54:58,268][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:54:58,269][ERROR][task_flow.py][L2120][run_task] | 任务 '一键日常' 执行失败
+[2026-08-28 20:54:58,269][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_TASK_SUCCESS (4)，未启用对应的发送时机
+[2026-08-28 20:54:58,270][DEBUG][task_flow.py][L1055][run_tasks_flow] | 收到停止请求，流程终止
+[2026-08-28 20:54:58,271][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:54:58,271][DEBUG][__init__.py][L132][run] | #5 got callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} from queue
+[2026-08-28 20:54:58,276][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:54:58,276][DEBUG][maafw.py][L1441][_cleanup_runtime] | MaaFW 清理已在进行中，忽略重复请求
+[2026-08-28 20:54:58,276][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 20:54:58,284][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 停止任务中...
+[2026-08-28 20:54:58,295][INFO][task_flow.py][L2254][stop_task] | [RUN_RECORD] TASK_FLOW_STOP manual=True
+[2026-08-28 20:54:58,532][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 20:54:58,535][INFO][monitor_interface.py][L872][_stop_sequence] | [Monitor] 监控已停止
+[2026-08-28 20:54:58,726][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 20:54:58,729][INFO][task_flow.py][L2254][stop_task] | [RUN_RECORD] TASK_FLOW_STOP manual=True
+[2026-08-28 20:55:40,036][INFO][logoutput_widget.py][L344][clear_log] | [日志清除] 已清除所有日志条目和缓存图像，序号已重置
+[2026-08-28 20:55:40,039][INFO][task_flow.py][L610][run_tasks_flow] | [RUN_RECORD] TASK_FLOW_START
+[2026-08-28 20:55:40,039][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_FLOW_STARTED (1)，未启用对应的发送时机
+[2026-08-28 20:55:40,044][INFO][task_flow.py][L199][_reload_interface_for_current_bundle] | 运行前按当前 bundle 刷新 interface: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:55:40,044][INFO][interface_manager.py][L786][reload] | 重新加载 interface 配置文件...
+[2026-08-28 20:55:40,045][DEBUG][interface_manager.py][L151][initialize] | 加载配置文件: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:55:40,046][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:55:40,047][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 20:55:40,047][INFO][interface_manager.py][L793][reload] | interface 配置文件重新加载完成
+[2026-08-28 20:55:40,047][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:55:40,048][INFO][task_flow.py][L736][run_tasks_flow] | 开始加载资源...
+[2026-08-28 20:55:40,048][DEBUG][task_flow.py][L1883][load_resources] | 加载资源: ['./resource']
+[2026-08-28 20:55:40,049][DEBUG][task_flow.py][L1933][load_resources] | 加载资源: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 20:55:40,054][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.load_resource at 0x000001470C80BA60>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:55:40,055][DEBUG][__init__.py][L132][run] | #6 got callback functools.partial(<function MaaFW.load_resource at 0x000001470C80BA60>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} from queue
+[2026-08-28 20:55:40,055][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:55:40,056][DEBUG][maafw.py][L1373][load_resource] | 设置自动
+[2026-08-28 20:55:40,059][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始加载资源……
+[2026-08-28 20:55:40,481][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:55:40,481][DEBUG][task_flow.py][L1948][load_resources] | 资源加载完成: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 20:55:40,481][INFO][task_flow.py][L741][run_tasks_flow] | 资源加载完成
+[2026-08-28 20:55:40,482][DEBUG][interface_manager.py][L603][_handle_embedded_agent] | agent 配置中没有 embedded 字段，跳过嵌入式转换
+[2026-08-28 20:55:40,482][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:55:40,484][INFO][task_flow.py][L910][run_tasks_flow] | 开始连接设备...
+[2026-08-28 20:55:40,486][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 20:55:41,652][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 20:55:41,661][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:55:41,661][DEBUG][__init__.py][L132][run] | #9 got callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 20:55:41,661][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:55:41,666][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] Agent 服务启动
+[2026-08-28 20:55:41,669][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始连接设备
+[2026-08-28 20:55:41,672][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 自动检测ADB设备...
+[2026-08-28 20:55:42,396][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:55:47,854][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 20:55:47,854][INFO][monitor_interface.py][L819][_start_monitoring_impl] | [Monitor] 开始启动监控（自动）
+[2026-08-28 20:55:47,856][INFO][task_flow.py][L934][run_tasks_flow] | 设备连接成功
+[2026-08-28 20:55:47,856][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_CONNECT_SUCCESS (2)，未启用对应的发送时机
+[2026-08-28 20:55:47,873][INFO][task_flow.py][L2083][run_task] | 任务 '一键日常' 的执行信息: {'entry': '一键日常', 'pipeline_override': {}}
+[2026-08-28 20:55:47,873][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.run_task at 0x000001470C80BBA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, '一键日常', {}, False) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:55:47,873][DEBUG][__init__.py][L132][run] | #8 got callback functools.partial(<function MaaFW.run_task at 0x000001470C80BBA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, '一键日常', {}, False) with args () and kwargs {} from queue
+[2026-08-28 20:55:47,873][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:55:47,877][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:55:47,883][DEBUG][maafw.py][L1266][_start_one_agent] | 启动agent命令: ['python', './agent/main.py', '7a14136d-0e23-4a46-9498-b6ca874a2c3b']
+[2026-08-28 20:55:47,884][DEBUG][maafw.py][L1273][_start_one_agent] | 注入 PI_* 环境变量: ['PI_INTERFACE_VERSION', 'PI_CLIENT_NAME', 'PI_CLIENT_VERSION', 'PI_CLIENT_LANGUAGE', 'PI_CLIENT_MAAFW_VERSION', 'PI_VERSION', 'PI_CONTROLLER', 'PI_RESOURCE']
+[2026-08-28 20:55:47,892][DEBUG][maafw.py][L1306][_start_one_agent] | agent 连接超时: 30000ms
+[2026-08-28 20:55:47,910][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 设备连接成功
+[2026-08-28 20:55:47,914][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:55:47,926][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 最快截图耗时: 15ms
+[2026-08-28 20:55:47,934][INFO][monitor_session.py][L176][run_startup_sequence] | [Monitor] 监控控制器未就绪，开始连接...
+[2026-08-28 20:55:47,934][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 20:55:49,195][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 20:55:49,206][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:55:49,206][DEBUG][__init__.py][L132][run] | #7 got callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 20:55:49,206][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:55:49,223][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:55:49,255][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 执行任务: 一键日常
+[2026-08-28 20:55:50,041][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:55:55,512][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 20:55:55,512][INFO][monitor_session.py][L106][start_loop] | [Monitor] 开始启动监控循环，截图速率: 30 FPS
+[2026-08-28 20:55:55,512][INFO][monitor_session.py][L204][_monitor_loop] | [Monitor] 监控循环已开始运行
+[2026-08-28 20:56:20,334][INFO][task_flow.py][L458][_save_stop_screenshot] | 停止截图已保存: debug\stop\stop_20260828_205620_manual.png
+[2026-08-28 20:56:20,334][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:56:20,334][DEBUG][__init__.py][L132][run] | #10 got callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} from queue
+[2026-08-28 20:56:20,334][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:56:20,334][INFO][monitor_session.py][L238][_monitor_loop] | [Monitor] 监控循环被取消，共捕获 691 帧
+[2026-08-28 20:56:20,335][INFO][monitor_session.py][L242][_monitor_loop] | [Monitor] 监控循环结束，共捕获 691 帧
+[2026-08-28 20:56:20,335][DEBUG][__init__.py][L147][run] | Setting Future result: False
+[2026-08-28 20:56:20,338][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:56:20,367][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 停止任务中...
+[2026-08-28 20:56:20,377][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:56:20,378][DEBUG][__init__.py][L132][run] | #1 got callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>) with args () and kwargs {} from queue
+[2026-08-28 20:56:20,381][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:56:20,384][ERROR][task_flow.py][L2120][run_task] | 任务 '一键日常' 执行失败
+[2026-08-28 20:56:20,384][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_TASK_SUCCESS (4)，未启用对应的发送时机
+[2026-08-28 20:56:20,384][DEBUG][task_flow.py][L1055][run_tasks_flow] | 收到停止请求，流程终止
+[2026-08-28 20:56:20,386][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:56:20,386][DEBUG][__init__.py][L132][run] | #3 got callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} from queue
+[2026-08-28 20:56:20,386][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:56:20,386][DEBUG][maafw.py][L1441][_cleanup_runtime] | MaaFW 清理已在进行中，忽略重复请求
+[2026-08-28 20:56:20,386][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 20:56:20,391][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 停止任务中...
+[2026-08-28 20:56:20,403][INFO][task_flow.py][L2254][stop_task] | [RUN_RECORD] TASK_FLOW_STOP manual=True
+[2026-08-28 20:56:20,666][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 20:56:20,668][INFO][monitor_interface.py][L872][_stop_sequence] | [Monitor] 监控已停止
+[2026-08-28 20:56:21,201][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 20:56:21,202][INFO][task_flow.py][L2254][stop_task] | [RUN_RECORD] TASK_FLOW_STOP manual=True
+[2026-08-28 20:56:21,788][INFO][logoutput_widget.py][L344][clear_log] | [日志清除] 已清除所有日志条目和缓存图像，序号已重置
+[2026-08-28 20:56:21,791][INFO][task_flow.py][L610][run_tasks_flow] | [RUN_RECORD] TASK_FLOW_START
+[2026-08-28 20:56:21,791][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_FLOW_STARTED (1)，未启用对应的发送时机
+[2026-08-28 20:56:21,795][INFO][task_flow.py][L199][_reload_interface_for_current_bundle] | 运行前按当前 bundle 刷新 interface: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:56:21,795][INFO][interface_manager.py][L786][reload] | 重新加载 interface 配置文件...
+[2026-08-28 20:56:21,796][DEBUG][interface_manager.py][L151][initialize] | 加载配置文件: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 20:56:21,797][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:56:21,798][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 20:56:21,798][INFO][interface_manager.py][L793][reload] | interface 配置文件重新加载完成
+[2026-08-28 20:56:21,798][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:56:21,799][INFO][task_flow.py][L736][run_tasks_flow] | 开始加载资源...
+[2026-08-28 20:56:21,799][DEBUG][task_flow.py][L1883][load_resources] | 加载资源: ['./resource']
+[2026-08-28 20:56:21,800][DEBUG][task_flow.py][L1933][load_resources] | 加载资源: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 20:56:21,805][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.load_resource at 0x000001470C80BA60>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:56:21,805][DEBUG][__init__.py][L132][run] | #5 got callback functools.partial(<function MaaFW.load_resource at 0x000001470C80BA60>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} from queue
+[2026-08-28 20:56:21,805][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:56:21,806][DEBUG][maafw.py][L1373][load_resource] | 设置自动
+[2026-08-28 20:56:21,809][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始加载资源……
+[2026-08-28 20:56:22,155][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:56:22,156][DEBUG][task_flow.py][L1948][load_resources] | 资源加载完成: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 20:56:22,156][INFO][task_flow.py][L741][run_tasks_flow] | 资源加载完成
+[2026-08-28 20:56:22,156][DEBUG][interface_manager.py][L603][_handle_embedded_agent] | agent 配置中没有 embedded 字段，跳过嵌入式转换
+[2026-08-28 20:56:22,156][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 20:56:22,159][INFO][task_flow.py][L910][run_tasks_flow] | 开始连接设备...
+[2026-08-28 20:56:22,160][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 20:56:23,380][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 20:56:23,388][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:56:23,389][DEBUG][__init__.py][L132][run] | #4 got callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 20:56:23,389][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:56:23,392][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] Agent 服务启动
+[2026-08-28 20:56:23,396][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始连接设备
+[2026-08-28 20:56:23,399][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 自动检测ADB设备...
+[2026-08-28 20:56:23,903][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:56:29,369][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 20:56:29,369][INFO][monitor_interface.py][L819][_start_monitoring_impl] | [Monitor] 开始启动监控（自动）
+[2026-08-28 20:56:29,371][INFO][task_flow.py][L934][run_tasks_flow] | 设备连接成功
+[2026-08-28 20:56:29,371][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_CONNECT_SUCCESS (2)，未启用对应的发送时机
+[2026-08-28 20:56:29,385][INFO][task_flow.py][L2083][run_task] | 任务 '一键日常' 的执行信息: {'entry': '一键日常', 'pipeline_override': {}}
+[2026-08-28 20:56:29,385][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.run_task at 0x000001470C80BBA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, '一键日常', {}, False) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:56:29,385][DEBUG][__init__.py][L132][run] | #2 got callback functools.partial(<function MaaFW.run_task at 0x000001470C80BBA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, '一键日常', {}, False) with args () and kwargs {} from queue
+[2026-08-28 20:56:29,385][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:56:29,388][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:56:29,395][DEBUG][maafw.py][L1266][_start_one_agent] | 启动agent命令: ['python', './agent/main.py', 'cd378a90-bd8d-4ce3-b459-f9202dfb6dd4']
+[2026-08-28 20:56:29,395][DEBUG][maafw.py][L1273][_start_one_agent] | 注入 PI_* 环境变量: ['PI_INTERFACE_VERSION', 'PI_CLIENT_NAME', 'PI_CLIENT_VERSION', 'PI_CLIENT_LANGUAGE', 'PI_CLIENT_MAAFW_VERSION', 'PI_VERSION', 'PI_CONTROLLER', 'PI_RESOURCE']
+[2026-08-28 20:56:29,403][DEBUG][maafw.py][L1306][_start_one_agent] | agent 连接超时: 30000ms
+[2026-08-28 20:56:29,417][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 设备连接成功
+[2026-08-28 20:56:29,419][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:56:29,429][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 最快截图耗时: 13ms
+[2026-08-28 20:56:29,437][INFO][monitor_session.py][L176][run_startup_sequence] | [Monitor] 监控控制器未就绪，开始连接...
+[2026-08-28 20:56:29,437][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 20:56:30,450][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 20:56:30,459][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 20:56:30,459][DEBUG][__init__.py][L132][run] | #6 got callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 20:56:30,460][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 20:56:30,476][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 20:56:30,490][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 执行任务: 一键日常
+[2026-08-28 20:56:31,346][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 20:56:36,807][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 20:56:36,807][INFO][monitor_session.py][L106][start_loop] | [Monitor] 开始启动监控循环，截图速率: 30 FPS
+[2026-08-28 20:56:36,807][INFO][monitor_session.py][L204][_monitor_loop] | [Monitor] 监控循环已开始运行
+[2026-08-28 20:57:53,417][DEBUG][character_controller.py][L454][_check_state_and_switch] | 检测到主窗口隐藏/最小化，切换悬浮模式
+[2026-08-28 20:57:53,417][DEBUG][character_controller.py][L454][_check_state_and_switch] | 检测到主窗口隐藏/最小化，切换悬浮模式
+[2026-08-28 20:57:53,786][DEBUG][character_controller.py][L344][switch_to_float_mode] | Character → float mode
+[2026-08-28 20:57:59,567][DEBUG][character_controller.py][L457][_check_state_and_switch] | 检测到主窗口恢复，切换窗口模式
+[2026-08-28 20:57:59,567][DEBUG][character_controller.py][L457][_check_state_and_switch] | 检测到主窗口恢复，切换窗口模式
+[2026-08-28 20:57:59,870][DEBUG][character_controller.py][L311][switch_to_window_mode] | Character → window mode
+[2026-08-28 21:01:01,209][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 21:01:01,243][INFO][logoutput_widget.py][L458][add_structured_log] | [ERROR] 任务失败: 一键日常
+[2026-08-28 21:01:01,293][ERROR][task_flow.py][L2120][run_task] | 任务 '一键日常' 执行失败
+[2026-08-28 21:01:01,293][DEBUG][notice.py][L779][send_notice] | 发送通知 WHEN_TASK_FAILED (5): 任务失败 - 任务“一键日常”执行失败。
+[2026-08-28 21:01:01,293][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_TASK_SUCCESS (4)，未启用对应的发送时机
+[2026-08-28 21:01:01,293][DEBUG][notice.py][L779][send_notice] | 发送通知 WHEN_POST_TASK (6): 任务完成 - [20:56:21][信息]开始加载资源……
+[20:56:22][信息]Agent 服务启动
+[20:56:22][信息]开始连接设备
+[20:56:22][信息]自动检测ADB设备...
+[20:56:29][信息]设备连接成功
+[20:56:29][信息]最快截图耗时: 13ms
+[20:56:30][信息]执行任务: 一键日常
+[21:01:01][错误]任务失败: 一键日常
+[21:01:01][信息]所有任务都已完成
+[2026-08-28 21:01:01,295][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:01:01,295][DEBUG][__init__.py][L132][run] | #3 got callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} from queue
+[2026-08-28 21:01:01,295][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:01:01,310][INFO][monitor_session.py][L238][_monitor_loop] | [Monitor] 监控循环被取消，共捕获 7607 帧
+[2026-08-28 21:01:01,310][INFO][monitor_session.py][L242][_monitor_loop] | [Monitor] 监控循环结束，共捕获 7607 帧
+[2026-08-28 21:01:01,318][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 所有任务都已完成
+[2026-08-28 21:01:01,324][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 停止任务中...
+[2026-08-28 21:01:01,449][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:01:01,449][DEBUG][__init__.py][L132][run] | #1 got callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>) with args () and kwargs {} from queue
+[2026-08-28 21:01:01,449][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:01:01,736][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 21:01:01,739][INFO][monitor_interface.py][L872][_stop_sequence] | [Monitor] 监控已停止
+[2026-08-28 21:01:01,751][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 21:01:01,754][INFO][task_flow.py][L2254][stop_task] | [RUN_RECORD] TASK_FLOW_STOP manual=False
+[2026-08-28 21:01:10,240][INFO][logoutput_widget.py][L344][clear_log] | [日志清除] 已清除所有日志条目和缓存图像，序号已重置
+[2026-08-28 21:01:10,245][INFO][task_flow.py][L610][run_tasks_flow] | [RUN_RECORD] TASK_FLOW_START
+[2026-08-28 21:01:10,245][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_FLOW_STARTED (1)，未启用对应的发送时机
+[2026-08-28 21:01:10,279][INFO][task_flow.py][L199][_reload_interface_for_current_bundle] | 运行前按当前 bundle 刷新 interface: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 21:01:10,279][INFO][interface_manager.py][L786][reload] | 重新加载 interface 配置文件...
+[2026-08-28 21:01:10,307][DEBUG][interface_manager.py][L151][initialize] | 加载配置文件: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 21:01:10,309][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 21:01:10,310][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 21:01:10,310][INFO][interface_manager.py][L793][reload] | interface 配置文件重新加载完成
+[2026-08-28 21:01:10,310][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 21:01:10,311][INFO][task_flow.py][L736][run_tasks_flow] | 开始加载资源...
+[2026-08-28 21:01:10,311][DEBUG][task_flow.py][L1883][load_resources] | 加载资源: ['./resource']
+[2026-08-28 21:01:10,312][DEBUG][task_flow.py][L1933][load_resources] | 加载资源: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 21:01:10,427][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.load_resource at 0x000001470C80BA60>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:01:10,428][DEBUG][__init__.py][L132][run] | #10 got callback functools.partial(<function MaaFW.load_resource at 0x000001470C80BA60>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} from queue
+[2026-08-28 21:01:10,428][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:01:10,429][DEBUG][maafw.py][L1373][load_resource] | 设置自动
+[2026-08-28 21:01:10,432][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始加载资源……
+[2026-08-28 21:01:10,820][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 21:01:10,824][DEBUG][task_flow.py][L1948][load_resources] | 资源加载完成: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 21:01:10,824][INFO][task_flow.py][L741][run_tasks_flow] | 资源加载完成
+[2026-08-28 21:01:10,824][DEBUG][interface_manager.py][L603][_handle_embedded_agent] | agent 配置中没有 embedded 字段，跳过嵌入式转换
+[2026-08-28 21:01:10,824][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 21:01:10,827][INFO][task_flow.py][L910][run_tasks_flow] | 开始连接设备...
+[2026-08-28 21:01:10,829][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 21:01:11,942][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 21:01:11,953][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:01:11,953][DEBUG][__init__.py][L132][run] | #5 got callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 21:01:11,953][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:01:11,957][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] Agent 服务启动
+[2026-08-28 21:01:11,960][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始连接设备
+[2026-08-28 21:01:11,963][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 自动检测ADB设备...
+[2026-08-28 21:01:12,980][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 21:01:18,448][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 21:01:18,448][INFO][monitor_interface.py][L819][_start_monitoring_impl] | [Monitor] 开始启动监控（自动）
+[2026-08-28 21:01:18,450][INFO][task_flow.py][L934][run_tasks_flow] | 设备连接成功
+[2026-08-28 21:01:18,450][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_CONNECT_SUCCESS (2)，未启用对应的发送时机
+[2026-08-28 21:01:18,464][INFO][task_flow.py][L2083][run_task] | 任务 '一键日常' 的执行信息: {'entry': '一键日常', 'pipeline_override': {}}
+[2026-08-28 21:01:18,464][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.run_task at 0x000001470C80BBA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, '一键日常', {}, False) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:01:18,464][DEBUG][__init__.py][L132][run] | #4 got callback functools.partial(<function MaaFW.run_task at 0x000001470C80BBA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, '一键日常', {}, False) with args () and kwargs {} from queue
+[2026-08-28 21:01:18,464][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:01:18,467][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 21:01:18,473][DEBUG][maafw.py][L1266][_start_one_agent] | 启动agent命令: ['python', './agent/main.py', 'dba3fb1d-ca2d-4deb-9726-159414ca5a3d']
+[2026-08-28 21:01:18,473][DEBUG][maafw.py][L1273][_start_one_agent] | 注入 PI_* 环境变量: ['PI_INTERFACE_VERSION', 'PI_CLIENT_NAME', 'PI_CLIENT_VERSION', 'PI_CLIENT_LANGUAGE', 'PI_CLIENT_MAAFW_VERSION', 'PI_VERSION', 'PI_CONTROLLER', 'PI_RESOURCE']
+[2026-08-28 21:01:18,482][DEBUG][maafw.py][L1306][_start_one_agent] | agent 连接超时: 30000ms
+[2026-08-28 21:01:18,499][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 设备连接成功
+[2026-08-28 21:01:18,502][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 21:01:18,513][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 最快截图耗时: 13ms
+[2026-08-28 21:01:18,533][INFO][monitor_session.py][L176][run_startup_sequence] | [Monitor] 监控控制器未就绪，开始连接...
+[2026-08-28 21:01:18,534][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 21:01:19,588][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 21:01:19,617][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:01:19,617][DEBUG][__init__.py][L132][run] | #6 got callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 21:01:19,617][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:01:19,644][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 21:01:19,655][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 执行任务: 一键日常
+[2026-08-28 21:01:20,203][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 21:01:25,668][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 21:01:25,668][INFO][monitor_session.py][L106][start_loop] | [Monitor] 开始启动监控循环，截图速率: 30 FPS
+[2026-08-28 21:01:25,669][INFO][monitor_session.py][L204][_monitor_loop] | [Monitor] 监控循环已开始运行
+[2026-08-28 21:05:39,930][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 21:05:39,966][INFO][logoutput_widget.py][L458][add_structured_log] | [ERROR] 任务失败: 一键日常
+[2026-08-28 21:05:40,004][ERROR][task_flow.py][L2120][run_task] | 任务 '一键日常' 执行失败
+[2026-08-28 21:05:40,004][DEBUG][notice.py][L779][send_notice] | 发送通知 WHEN_TASK_FAILED (5): 任务失败 - 任务“一键日常”执行失败。
+[2026-08-28 21:05:40,004][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_TASK_SUCCESS (4)，未启用对应的发送时机
+[2026-08-28 21:05:40,005][DEBUG][notice.py][L779][send_notice] | 发送通知 WHEN_POST_TASK (6): 任务完成 - [21:01:10][信息]开始加载资源……
+[21:01:10][信息]Agent 服务启动
+[21:01:10][信息]开始连接设备
+[21:01:10][信息]自动检测ADB设备...
+[21:01:18][信息]设备连接成功
+[21:01:18][信息]最快截图耗时: 13ms
+[21:01:19][信息]执行任务: 一键日常
+[21:05:39][错误]任务失败: 一键日常
+[21:05:40][信息]所有任务都已完成
+[2026-08-28 21:05:40,006][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:05:40,007][DEBUG][__init__.py][L132][run] | #6 got callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} from queue
+[2026-08-28 21:05:40,007][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:05:40,007][INFO][monitor_session.py][L238][_monitor_loop] | [Monitor] 监控循环被取消，共捕获 7494 帧
+[2026-08-28 21:05:40,007][INFO][monitor_session.py][L242][_monitor_loop] | [Monitor] 监控循环结束，共捕获 7494 帧
+[2026-08-28 21:05:40,016][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 所有任务都已完成
+[2026-08-28 21:05:40,024][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 停止任务中...
+[2026-08-28 21:05:40,151][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:05:40,152][DEBUG][__init__.py][L132][run] | #9 got callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>) with args () and kwargs {} from queue
+[2026-08-28 21:05:40,152][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:05:40,463][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 21:05:40,466][INFO][monitor_interface.py][L872][_stop_sequence] | [Monitor] 监控已停止
+[2026-08-28 21:05:40,505][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 21:05:40,508][INFO][task_flow.py][L2254][stop_task] | [RUN_RECORD] TASK_FLOW_STOP manual=False
+[2026-08-28 21:06:17,064][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 JJC: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 21:06:17,065][INFO][list_item.py][L420][_get_display_name] | 任务显示: JJC -> JJC
+[2026-08-28 21:06:18,531][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 一键日常: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 21:06:18,531][INFO][list_item.py][L420][_get_display_name] | 任务显示: 一键日常 -> 一键日常
+[2026-08-28 21:06:22,376][INFO][logoutput_widget.py][L344][clear_log] | [日志清除] 已清除所有日志条目和缓存图像，序号已重置
+[2026-08-28 21:06:22,379][INFO][task_flow.py][L610][run_tasks_flow] | [RUN_RECORD] TASK_FLOW_START
+[2026-08-28 21:06:22,379][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_FLOW_STARTED (1)，未启用对应的发送时机
+[2026-08-28 21:06:22,389][INFO][task_flow.py][L199][_reload_interface_for_current_bundle] | 运行前按当前 bundle 刷新 interface: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 21:06:22,389][INFO][interface_manager.py][L786][reload] | 重新加载 interface 配置文件...
+[2026-08-28 21:06:22,480][DEBUG][interface_manager.py][L151][initialize] | 加载配置文件: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 21:06:22,481][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 21:06:22,482][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 21:06:22,482][INFO][interface_manager.py][L793][reload] | interface 配置文件重新加载完成
+[2026-08-28 21:06:22,482][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 21:06:22,483][INFO][task_flow.py][L736][run_tasks_flow] | 开始加载资源...
+[2026-08-28 21:06:22,483][DEBUG][task_flow.py][L1883][load_resources] | 加载资源: ['./resource']
+[2026-08-28 21:06:22,484][DEBUG][task_flow.py][L1933][load_resources] | 加载资源: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 21:06:22,600][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.load_resource at 0x000001470C80BA60>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:06:22,600][DEBUG][__init__.py][L132][run] | #7 got callback functools.partial(<function MaaFW.load_resource at 0x000001470C80BA60>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} from queue
+[2026-08-28 21:06:22,601][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:06:22,601][DEBUG][maafw.py][L1373][load_resource] | 设置自动
+[2026-08-28 21:06:22,604][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始加载资源……
+[2026-08-28 21:06:22,967][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 21:06:22,967][DEBUG][task_flow.py][L1948][load_resources] | 资源加载完成: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 21:06:22,967][INFO][task_flow.py][L741][run_tasks_flow] | 资源加载完成
+[2026-08-28 21:06:22,967][DEBUG][interface_manager.py][L603][_handle_embedded_agent] | agent 配置中没有 embedded 字段，跳过嵌入式转换
+[2026-08-28 21:06:22,968][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 21:06:22,970][INFO][task_flow.py][L910][run_tasks_flow] | 开始连接设备...
+[2026-08-28 21:06:22,971][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 21:06:24,022][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 21:06:24,030][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:06:24,030][DEBUG][__init__.py][L132][run] | #8 got callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 21:06:24,030][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:06:24,034][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] Agent 服务启动
+[2026-08-28 21:06:24,037][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始连接设备
+[2026-08-28 21:06:24,040][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 自动检测ADB设备...
+[2026-08-28 21:06:24,857][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 21:06:30,322][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 21:06:30,322][INFO][monitor_interface.py][L819][_start_monitoring_impl] | [Monitor] 开始启动监控（自动）
+[2026-08-28 21:06:30,324][INFO][task_flow.py][L934][run_tasks_flow] | 设备连接成功
+[2026-08-28 21:06:30,324][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_CONNECT_SUCCESS (2)，未启用对应的发送时机
+[2026-08-28 21:06:30,337][INFO][task_flow.py][L2083][run_task] | 任务 'JJC' 的执行信息: {'entry': 'JJC出击', 'pipeline_override': {}}
+[2026-08-28 21:06:30,337][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.run_task at 0x000001470C80BBA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, 'JJC出击', {}, False) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:06:30,337][DEBUG][__init__.py][L132][run] | #2 got callback functools.partial(<function MaaFW.run_task at 0x000001470C80BBA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, 'JJC出击', {}, False) with args () and kwargs {} from queue
+[2026-08-28 21:06:30,337][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:06:30,339][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 21:06:30,346][DEBUG][maafw.py][L1266][_start_one_agent] | 启动agent命令: ['python', './agent/main.py', 'b8775b15-71f8-491b-918f-93a8a3013343']
+[2026-08-28 21:06:30,346][DEBUG][maafw.py][L1273][_start_one_agent] | 注入 PI_* 环境变量: ['PI_INTERFACE_VERSION', 'PI_CLIENT_NAME', 'PI_CLIENT_VERSION', 'PI_CLIENT_LANGUAGE', 'PI_CLIENT_MAAFW_VERSION', 'PI_VERSION', 'PI_CONTROLLER', 'PI_RESOURCE']
+[2026-08-28 21:06:30,355][DEBUG][maafw.py][L1306][_start_one_agent] | agent 连接超时: 30000ms
+[2026-08-28 21:06:30,372][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 设备连接成功
+[2026-08-28 21:06:30,374][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 21:06:30,385][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 最快截图耗时: 11ms
+[2026-08-28 21:06:30,391][INFO][monitor_session.py][L176][run_startup_sequence] | [Monitor] 监控控制器未就绪，开始连接...
+[2026-08-28 21:06:30,391][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 21:06:31,535][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 21:06:31,550][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:06:31,550][DEBUG][__init__.py][L132][run] | #1 got callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 21:06:31,551][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:06:31,565][DEBUG][logoutput_widget.py][L750][_try_capture_cached_image_bytes] | [LogImage] Got frame: 1280x720, ndim=3, dtype=uint8
+[2026-08-28 21:06:31,597][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 执行任务: JJC出击
+[2026-08-28 21:06:32,189][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 21:06:37,652][DEBUG][task_flow.py][L1810][connect_device] | 设置控制器分辨率: 短边 720
+[2026-08-28 21:06:37,652][INFO][monitor_session.py][L106][start_loop] | [Monitor] 开始启动监控循环，截图速率: 30 FPS
+[2026-08-28 21:06:37,652][INFO][monitor_session.py][L204][_monitor_loop] | [Monitor] 监控循环已开始运行
+[2026-08-28 21:12:33,027][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_TASK_SUCCESS (4)，未启用对应的发送时机
+[2026-08-28 21:12:33,027][DEBUG][notice.py][L779][send_notice] | 发送通知 WHEN_POST_TASK (6): 任务完成 - [21:06:22][信息]开始加载资源……
+[21:06:22][信息]Agent 服务启动
+[21:06:22][信息]开始连接设备
+[21:06:22][信息]自动检测ADB设备...
+[21:06:30][信息]设备连接成功
+[21:06:30][信息]最快截图耗时: 11ms
+[21:06:31][信息]执行任务: JJC出击
+[21:12:33][信息]所有任务都已完成
+[2026-08-28 21:12:33,029][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:12:33,029][DEBUG][__init__.py][L132][run] | #8 got callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} from queue
+[2026-08-28 21:12:33,030][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:12:33,037][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 所有任务都已完成
+[2026-08-28 21:12:33,037][DEBUG][__init__.py][L147][run] | Setting Future result: <PIL.Image.Image image mode=RGB size=1280x720 at 0x147481349D0>
+[2026-08-28 21:12:33,042][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 停止任务中...
+[2026-08-28 21:12:33,042][INFO][monitor_session.py][L238][_monitor_loop] | [Monitor] 监控循环被取消，共捕获 10481 帧
+[2026-08-28 21:12:33,042][INFO][monitor_session.py][L242][_monitor_loop] | [Monitor] 监控循环结束，共捕获 10481 帧
+[2026-08-28 21:12:33,182][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:12:33,182][DEBUG][__init__.py][L132][run] | #1 got callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x14741ba1d00) at 0x000001470D6FAA00>) with args () and kwargs {} from queue
+[2026-08-28 21:12:33,182][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:12:33,484][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 21:12:33,486][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 21:12:33,488][INFO][task_flow.py][L2254][stop_task] | [RUN_RECORD] TASK_FLOW_STOP manual=False
+[2026-08-28 21:12:33,503][INFO][monitor_interface.py][L872][_stop_sequence] | [Monitor] 监控已停止
+[2026-08-28 21:12:36,975][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 JJC: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 21:12:36,975][INFO][list_item.py][L420][_get_display_name] | 任务显示: JJC -> JJC
+[2026-08-28 21:12:37,317][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 日常刷体力: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 21:12:37,318][INFO][list_item.py][L420][_get_display_name] | 任务显示: 日常刷体力 -> 日常刷体力
+[2026-08-28 21:12:42,560][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 日常刷体力: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 21:12:42,560][INFO][list_item.py][L420][_get_display_name] | 任务显示: 日常刷体力 -> 日常刷体力
+[2026-08-28 21:12:44,094][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 周本: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 21:12:44,095][INFO][list_item.py][L420][_get_display_name] | 任务显示: 周本 -> 周本
+[2026-08-28 21:12:44,669][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 周本: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 21:12:44,670][INFO][list_item.py][L420][_get_display_name] | 任务显示: 周本 -> 周本
+[2026-08-28 21:12:46,466][INFO][logoutput_widget.py][L344][clear_log] | [日志清除] 已清除所有日志条目和缓存图像，序号已重置
+[2026-08-28 21:12:46,468][INFO][task_flow.py][L610][run_tasks_flow] | [RUN_RECORD] TASK_FLOW_START
+[2026-08-28 21:12:46,469][DEBUG][notice.py][L777][send_notice] | 跳过通知 WHEN_FLOW_STARTED (1)，未启用对应的发送时机
+[2026-08-28 21:12:46,473][INFO][task_flow.py][L199][_reload_interface_for_current_bundle] | 运行前按当前 bundle 刷新 interface: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 21:12:46,473][INFO][interface_manager.py][L786][reload] | 重新加载 interface 配置文件...
+[2026-08-28 21:12:46,473][DEBUG][interface_manager.py][L151][initialize] | 加载配置文件: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 21:12:46,475][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 21:12:46,475][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 21:12:46,476][INFO][interface_manager.py][L793][reload] | interface 配置文件重新加载完成
+[2026-08-28 21:12:46,476][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 21:12:46,477][INFO][task_flow.py][L736][run_tasks_flow] | 开始加载资源...
+[2026-08-28 21:12:46,477][DEBUG][task_flow.py][L1883][load_resources] | 加载资源: ['./resource']
+[2026-08-28 21:12:46,477][DEBUG][task_flow.py][L1933][load_resources] | 加载资源: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 21:12:46,483][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.load_resource at 0x000001470C80BA60>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:12:46,483][DEBUG][__init__.py][L132][run] | #3 got callback functools.partial(<function MaaFW.load_resource at 0x000001470C80BA60>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, WindowsPath('E:/GitHub/MFW-PyQt6-ui/resource'), -1) with args () and kwargs {} from queue
+[2026-08-28 21:12:46,483][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:12:46,484][DEBUG][maafw.py][L1373][load_resource] | 设置自动
+[2026-08-28 21:12:46,487][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始加载资源……
+[2026-08-28 21:12:46,838][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 21:12:46,838][DEBUG][task_flow.py][L1948][load_resources] | 资源加载完成: E:\GitHub\MFW-PyQt6-ui\resource
+[2026-08-28 21:12:46,839][INFO][task_flow.py][L741][run_tasks_flow] | 资源加载完成
+[2026-08-28 21:12:46,839][DEBUG][interface_manager.py][L603][_handle_embedded_agent] | agent 配置中没有 embedded 字段，跳过嵌入式转换
+[2026-08-28 21:12:46,839][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 21:12:46,842][INFO][task_flow.py][L910][run_tasks_flow] | 开始连接设备...
+[2026-08-28 21:12:46,843][INFO][task_flow.py][L2472][_connect_adb_controller] | 每次连接前自动搜索 ADB 设备...
+[2026-08-28 21:12:47,845][INFO][task_flow.py][L3801][_save_device_to_config] | 设备配置已保存: MuMu安卓设备-MuMuPlayer v5+[0](127.0.0.1:16384)
+[2026-08-28 21:12:47,854][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:12:47,854][DEBUG][__init__.py][L132][run] | #10 got callback functools.partial(<function MaaFW.connect_adb at 0x000001470C80ACA0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>, 'D:\\MuMu Player 12\\nx_main\\adb.exe', '127.0.0.1:16384', 64, -9, {'extras': {'mumu': {'enable': True, 'index': 0, 'path': 'D:/MuMu Player 12'}}}) with args () and kwargs {} from queue
+[2026-08-28 21:12:47,854][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:12:47,858][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] Agent 服务启动
+[2026-08-28 21:12:47,860][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 开始连接设备
+[2026-08-28 21:12:47,863][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 自动检测ADB设备...
+[2026-08-28 21:12:48,409][DEBUG][__init__.py][L147][run] | Setting Future result: True
+[2026-08-28 21:12:52,324][INFO][task_flow.py][L458][_save_stop_screenshot] | 停止截图已保存: debug\stop\stop_20260828_211252_manual.png
+[2026-08-28 21:12:52,325][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:12:52,325][DEBUG][__init__.py][L132][run] | #4 got callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} from queue
+[2026-08-28 21:12:52,325][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:12:52,330][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 停止任务中...
+[2026-08-28 21:12:52,330][ERROR][task_flow.py][L923][run_tasks_flow] | 设备连接失败
+[2026-08-28 21:12:52,330][DEBUG][notice.py][L779][send_notice] | 发送通知 WHEN_CONNECT_FAILED (3): 设备连接失败 - 连接设备失败。
+[2026-08-28 21:12:52,332][DEBUG][__init__.py][L204][submit] | Submitting callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} to thread worker queue
+[2026-08-28 21:12:52,332][DEBUG][__init__.py][L132][run] | #5 got callback functools.partial(<function MaaFW.stop_task at 0x000001470C80BCE0>, <app.core.runner.maafw.MaaFW(0x1470acee890) at 0x000001470D636C00>) with args () and kwargs {} from queue
+[2026-08-28 21:12:52,336][DEBUG][__init__.py][L140][run] | Invoking callback
+[2026-08-28 21:12:52,337][DEBUG][maafw.py][L1441][_cleanup_runtime] | MaaFW 清理已在进行中，忽略重复请求
+[2026-08-28 21:12:52,337][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 21:12:52,344][INFO][logoutput_widget.py][L458][add_structured_log] | [INFO] 停止任务中...
+[2026-08-28 21:12:52,359][INFO][task_flow.py][L2254][stop_task] | [RUN_RECORD] TASK_FLOW_STOP manual=True
+[2026-08-28 21:12:52,601][DEBUG][__init__.py][L147][run] | Setting Future result: None
+[2026-08-28 21:12:52,603][INFO][task_flow.py][L2254][stop_task] | [RUN_RECORD] TASK_FLOW_STOP manual=True
+[2026-08-28 21:12:54,313][DEBUG][hotkey_manager.py][L154][shutdown] | 已卸载所有 keyboard 钩子
+[2026-08-28 21:12:54,336][DEBUG][main_window.py][L3397][_stop_notice_thread] | 关闭发送线程
+[2026-08-28 21:12:54,337][DEBUG][_windows.py][L220][stop] | Stopping worker thread...
+[2026-08-28 21:12:54,346][DEBUG][_windows.py][L204][run] | Exiting thread
+[2026-08-28 21:12:54,347][DEBUG][main.py][L398][_run] | 关闭异步任务完成
+[2026-08-28 21:12:54,347][DEBUG][__init__.py][L222][shutdown] | Shutting down
+[2026-08-28 21:12:54,348][DEBUG][__init__.py][L161][wait] | Waiting for thread #1 to stop...
+[2026-08-28 21:12:54,348][DEBUG][__init__.py][L158][run] | Thread #9 stopped
+[2026-08-28 21:12:54,348][DEBUG][__init__.py][L158][run] | Thread #6 stopped
+[2026-08-28 21:12:54,348][DEBUG][__init__.py][L158][run] | Thread #2 stopped
+[2026-08-28 21:12:54,348][DEBUG][__init__.py][L158][run] | Thread #7 stopped
+[2026-08-28 21:12:54,348][DEBUG][__init__.py][L158][run] | Thread #8 stopped
+[2026-08-28 21:12:54,348][DEBUG][__init__.py][L158][run] | Thread #1 stopped
+[2026-08-28 21:12:54,348][DEBUG][__init__.py][L158][run] | Thread #3 stopped
+[2026-08-28 21:12:54,348][DEBUG][__init__.py][L158][run] | Thread #10 stopped
+[2026-08-28 21:12:54,348][DEBUG][__init__.py][L158][run] | Thread #5 stopped
+[2026-08-28 21:12:54,348][DEBUG][__init__.py][L158][run] | Thread #4 stopped
+[2026-08-28 21:12:54,350][DEBUG][__init__.py][L161][wait] | Waiting for thread #2 to stop...
+[2026-08-28 21:12:54,350][DEBUG][__init__.py][L161][wait] | Waiting for thread #3 to stop...
+[2026-08-28 21:12:54,350][DEBUG][__init__.py][L161][wait] | Waiting for thread #4 to stop...
+[2026-08-28 21:12:54,350][DEBUG][__init__.py][L161][wait] | Waiting for thread #5 to stop...
+[2026-08-28 21:12:54,350][DEBUG][__init__.py][L161][wait] | Waiting for thread #6 to stop...
+[2026-08-28 21:12:54,350][DEBUG][__init__.py][L161][wait] | Waiting for thread #7 to stop...
+[2026-08-28 21:12:54,350][DEBUG][__init__.py][L161][wait] | Waiting for thread #8 to stop...
+[2026-08-28 21:12:54,350][DEBUG][__init__.py][L161][wait] | Waiting for thread #9 to stop...
+[2026-08-28 21:12:54,350][DEBUG][__init__.py][L161][wait] | Waiting for thread #10 to stop...
+[2026-08-28 21:12:54,351][DEBUG][_windows.py][L78][close] | Closing
+[2026-08-28 21:19:11,806][DEBUG][config.py][L406][init_language_on_first_run] | 已设置语言偏好，跳过自动检测
+[2026-08-28 21:19:11,807][INFO][main.py][L181][_run] | MFW 版本:v4.6.16
+[2026-08-28 21:19:11,807][INFO][main.py][L182][_run] | 当前工作目录: E:\GitHub\MFW-PyQt6-ui
+[2026-08-28 21:19:11,808][DEBUG][crypto.py][L47][ensure_key_exists] | 加载密钥文件成功: C:\Users\xy315\AppData\Local\MFW-ChainFlow Assistant\k.ey
+[2026-08-28 21:19:15,227][DEBUG][registry.py][L37][register] | 注册选项类型: checkbox -> CheckBoxOptionItem
+[2026-08-28 21:19:15,227][DEBUG][registry.py][L37][register] | 注册选项类型: combobox -> ComboBoxOptionItem
+[2026-08-28 21:19:15,227][DEBUG][registry.py][L37][register] | 注册选项类型: select -> ComboBoxOptionItem
+[2026-08-28 21:19:15,227][DEBUG][registry.py][L37][register] | 注册选项类型: switch -> SwitchOptionItem
+[2026-08-28 21:19:15,227][DEBUG][registry.py][L37][register] | 注册选项类型: input -> InputOptionItem
+[2026-08-28 21:19:15,228][DEBUG][registry.py][L37][register] | 注册选项类型: inputs -> InputsOptionItem
+[2026-08-28 21:19:15,228][DEBUG][registry.py][L37][register] | 注册选项类型: hotkey -> HotkeyOptionItem
+[2026-08-28 21:19:15,228][DEBUG][registry.py][L153][register_default_types] | 已注册默认选项类型: combobox, select, switch, input, inputs, checkbox, hotkey
+[2026-08-28 21:19:17,092][INFO][main.py][L281][_run] | 加载简体中文翻译
+[2026-08-28 21:19:17,097][DEBUG][proactor_events.py][L631][__init__] | Using proactor: _IocpProactor
+[2026-08-28 21:19:17,098][INFO][gpu_cache.py][L119][initialize] | 开始初始化 GPU 信息缓存...
+[2026-08-28 21:19:17,216][INFO][gpu_cache.py][L127][initialize] | ✅ GPU 信息缓存成功，检测到 4 个 GPU 设备
+[2026-08-28 21:19:17,217][DEBUG][gpu_cache.py][L131][initialize] |   GPU 0: GameViewer Virtual Display Adapter
+[2026-08-28 21:19:17,217][DEBUG][gpu_cache.py][L131][initialize] |   GPU 1: Meta Virtual Monitor
+[2026-08-28 21:19:17,217][DEBUG][gpu_cache.py][L131][initialize] |   GPU 2: MuMu Virtual Display Adapter
+[2026-08-28 21:19:17,217][DEBUG][gpu_cache.py][L131][initialize] |   GPU 3: NVIDIA GeForce RTX 4060 Laptop GPU
+[2026-08-28 21:19:17,328][INFO][core.py][L214][_resolve_interface_path] | 从当前激活配置 c_03dbd5fd9ec649659e38efe4a47238bb 解析到 interface 路径: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 21:19:17,329][DEBUG][interface_manager.py][L151][initialize] | 加载配置文件: E:\GitHub\MFW-PyQt6-ui\interface.json
+[2026-08-28 21:19:17,330][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 21:19:17,331][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 21:19:17,331][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 21:19:18,601][INFO][core.py][L174][__init__] | 资源版本: 1.0.0
+[2026-08-28 21:19:18,601][INFO][main_window.py][L3217][set_title] |  设置窗口标题：MaaXXX 1.0.0
+[2026-08-28 21:19:20,317][DEBUG][character_controller.py][L311][switch_to_window_mode] | Character → window mode
+[2026-08-28 21:19:20,317][INFO][main_window.py][L1305][_init_character_controller] | 桌面小人控制器已初始化 (enabled=True, mode=window)
+[2026-08-28 21:19:20,442][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 21:19:20,443][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 21:19:20,461][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 一键日常: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 21:19:20,461][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 启动游戏: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 21:19:20,461][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 领取邮件: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 21:19:20,461][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 基地任务: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 21:19:20,461][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 JJC: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 21:19:20,461][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 日常刷体力: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 21:19:20,461][DEBUG][list_widget.py][L253][_should_show_by_resource] | [_should_show_by_resource] 任务 周本: 没有 resource 字段，显示（所有资源可用）
+[2026-08-28 21:19:20,676][INFO][main_window.py][L421][__init__] | 初始化 BundleInterface...
+[2026-08-28 21:19:20,688][WARNING][i18n_service.py][L73][load_translations_from_interface] | 未找到语言 zh_cn 的翻译文件配置
+[2026-08-28 21:19:20,689][DEBUG][interface_manager.py][L201][_translate_interface] | interface 配置翻译完成，当前语言: zh_cn
+[2026-08-28 21:19:20,695][INFO][main_window.py][L423][__init__] | BundleInterface 创建成功
+[2026-08-28 21:19:21,434][INFO][setting_interface.py][L2642][_init_updater] | 更新器初始化完成
+[2026-08-28 21:19:21,434][INFO][setting_interface.py][L2754][_refresh_local_update_package] | 本地更新元数据不存在，跳过本地包刷新
+[2026-08-28 21:19:21,434][INFO][main_window.py][L436][__init__] | 检查多资源适配状态（启动时）: False
+[2026-08-28 21:19:21,434][INFO][main_window.py][L452][__init__] | 多资源适配未开启，显示 Announcement，BundleInterface 不会显示在导航栏
+[2026-08-28 21:19:21,440][INFO][update.py][L1292][_init_run_context] | ==================================================
+[2026-08-28 21:19:21,446][INFO][update.py][L1293][_init_run_context] | 开始更新流程
+[2026-08-28 21:19:21,456][INFO][update.py][L1306][_init_run_context] | 当前版本: v1.0.0
+[2026-08-28 21:19:21,467][INFO][update.py][L1307][_init_run_context] | 资源ID: 
+[2026-08-28 21:19:21,469][INFO][update.py][L1308][_init_run_context] | GitHub URL: https://github.com/MaaXYZ/MaaPracticeBoilerplate
+[2026-08-28 21:19:21,469][INFO][update.py][L1310][_init_run_context] | ==================================================
+[2026-08-28 21:19:21,473][INFO][update.py][L1331][run] | 以仅检查模式运行更新器（check_only=True）
+[2026-08-28 21:19:21,473][INFO][main_window.py][L468][__init__] | ✓ Announcement 已添加到导航栏
+[2026-08-28 21:19:21,473][INFO][update.py][L1378][_run_check_only] | 以仅检查模式运行更新器（check_only=True）
+[2026-08-28 21:19:21,473][INFO][update.py][L1292][_init_run_context] | ==================================================
+[2026-08-28 21:19:21,473][INFO][update.py][L1293][_init_run_context] | 开始更新流程
+[2026-08-28 21:19:21,474][INFO][update.py][L1306][_init_run_context] | 当前版本: v1.0.0
+[2026-08-28 21:19:21,474][INFO][update.py][L1307][_init_run_context] | 资源ID: 
+[2026-08-28 21:19:21,474][INFO][update.py][L1308][_init_run_context] | GitHub URL: https://github.com/MaaXYZ/MaaPracticeBoilerplate
+[2026-08-28 21:19:21,474][INFO][update.py][L1310][_init_run_context] | ==================================================
+[2026-08-28 21:19:21,474][INFO][update.py][L1753][check_update] |   [检查更新] 开始检查...
+[2026-08-28 21:19:21,474][DEBUG][update.py][L1754][check_update] |   [检查更新] 资源ID: , CDK: 无
+[2026-08-28 21:19:21,474][DEBUG][update.py][L1764][check_update] |   [检查更新] 开关状态: force_full_download=False, force_github=False
+[2026-08-28 21:19:21,474][INFO][update.py][L1874][check_update] |   [检查更新] 因未配置 MirrorChyan 资源ID，直接跳过 Mirror 源
+[2026-08-28 21:19:21,474][INFO][update.py][L1877][check_update] |   [检查更新] 回退到 GitHub 最新版本检查
+[2026-08-28 21:19:21,474][INFO][update.py][L1882][check_update] |   [检查更新] 切换到 GitHub 源...
+[2026-08-28 21:19:21,474][DEBUG][update.py][L1899][check_update] |   [检查更新] GitHub API: https://api.github.com/repos/MaaXYZ/MaaPracticeBoilerplate/releases/latest
+[2026-08-28 21:19:21,474][INFO][update.py][L842][github_check] | 开始GitHub更新检查: https://api.github.com/repos/MaaXYZ/MaaPracticeBoilerplate/releases/latest
+[2026-08-28 21:19:21,551][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：ctrl+f1 -> start task
+[2026-08-28 21:19:21,551][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：alt+f1 -> stop task
+[2026-08-28 21:19:21,551][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：ctrl+f1 -> start task
+[2026-08-28 21:19:21,551][INFO][hotkey_manager.py][L193][_try_register] | 注册全局快捷键：alt+f1 -> stop task
+[2026-08-28 21:19:21,551][INFO][main_window.py][L2787][_bootstrap_auto_update_and_run] | 自动更新未开启，改为检查并执行 bundle 自动更新
+[2026-08-28 21:19:21,551][INFO][main_window.py][L2968][_check_and_start_bundle_update] | Bundle 自动更新未开启，直接发送所有更新完成信号
+[2026-08-28 21:19:21,551][INFO][main_window.py][L3001][_on_all_updates_completed] | 收到所有更新完成信号
+[2026-08-28 21:19:21,551][INFO][main_window.py][L520][__init__] |  主界面初始化完成。
+[2026-08-28 21:19:21,551][DEBUG][_windows.py][L215][start] | Starting (proactor: <_IocpProactor overlapped#=0 result#=0>)...
+[2026-08-28 21:19:21,552][DEBUG][_windows.py][L195][run] | Thread started
+[2026-08-28 21:19:21,710][INFO][list_item.py][L420][_get_display_name] | 任务显示: 一键日常 -> 一键日常
+[2026-08-28 21:19:21,730][INFO][list_item.py][L420][_get_display_name] | 任务显示: 启动游戏 -> 启动游戏
+[2026-08-28 21:19:21,749][INFO][list_item.py][L420][_get_display_name] | 任务显示: 领取邮件 -> 领取邮件
+[2026-08-28 21:19:21,766][INFO][list_item.py][L420][_get_display_name] | 任务显示: 基地任务 -> 基地任务
+[2026-08-28 21:19:21,784][INFO][list_item.py][L420][_get_display_name] | 任务显示: JJC -> JJC
+[2026-08-28 21:19:21,801][INFO][list_item.py][L420][_get_display_name] | 任务显示: 日常刷体力 -> 日常刷体力
+[2026-08-28 21:19:21,818][INFO][list_item.py][L420][_get_display_name] | 任务显示: 周本 -> 周本
+[2026-08-28 21:19:24,495][ERROR][update.py][L740][_github_http_error_handler] | GitHub更新检查失败（HTTP错误）: 404 Client Error: Not Found for url: https://api.github.com/repos/MaaXYZ/MaaPracticeBoilerplate/releases/latest
+[2026-08-28 21:19:24,496][WARNING][update.py][L847][github_check] | GitHub请求失败: GitHub 请求被拒绝，请检查项目 URL 或权限。 (HTTP 4xx)
+[2026-08-28 21:19:24,496][INFO][update.py][L1913][check_update] |   [检查更新] GitHub 返回状态: failed
+[2026-08-28 21:20:44,628][ERROR][main.py][L195][global_except_hook] | 未捕获的全局异常:
+Traceback (most recent call last):
+  File "D:\pythonProject\.venv\MFW-PyQt6-ui\Lib\site-packages\qfluentwidgets\components\widgets\progress_ring.py", line 128, in startAngle
+    @startAngle.setter
+    
+KeyboardInterrupt
+[2026-08-28 21:21:04,511][DEBUG][hotkey_manager.py][L154][shutdown] | 已卸载所有 keyboard 钩子
+[2026-08-28 21:21:04,532][DEBUG][main_window.py][L3397][_stop_notice_thread] | 关闭发送线程
+[2026-08-28 21:21:04,539][DEBUG][_windows.py][L220][stop] | Stopping worker thread...
+[2026-08-28 21:21:04,543][DEBUG][_windows.py][L204][run] | Exiting thread
+[2026-08-28 21:21:04,545][DEBUG][main.py][L398][_run] | 关闭异步任务完成
+[2026-08-28 21:21:04,546][DEBUG][_windows.py][L78][close] | Closing
