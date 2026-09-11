@@ -4,18 +4,18 @@
 </p>
 <div align="center">
 
-# MFW-ChainFlow Assistant(链程助手)
+# 交错战线助手 (MaaCrossCore)
 
 **[简体中文](./README.md) | [English](./README-en.md)**
 
-基于 **[PySide6](https://doc.qt.io/qtforpython-6)** 与 **[MaaFramework](https://github.com/MaaXYZ/MaaFramework)** 的跨平台 GUI，完整支持 interface v2 协议，开箱即用地编排、运行和扩展自动化流程。
+基于 **[PySide6](https://doc.qt.io/qtforpython-6)** 与 **[MaaFramework](https://github.com/MaaXYZ/MaaFramework)** 的跨平台 GUI，为游戏《交错战线》提供开箱即用的自动化脚本运行器。UI 基于 [MFW-ChainFlow Assistant](https://github.com/overflow65537/MFW-PyQt6)，任务流程来自 [MCC_Framework](https://github.com/MAACrossCore/MCC_Framework)，完整支持 interface v2 协议。
 </div>
 
 <p align="center">
-  <img alt="license" src="https://img.shields.io/github/license/overflow65537/MFW-PyQt6">
+  <img alt="license" src="https://img.shields.io/github/license/MAACrossCore/MFW-PyQt6-ui">
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
   <img alt="platform" src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-blueviolet">
-  <img alt="commit" src="https://img.shields.io/github/commit-activity/m/overflow65537/MFW-PyQt6">
+  <img alt="commit" src="https://img.shields.io/github/commit-activity/m/MAACrossCore/MFW-PyQt6-ui">
 </p>
 
 ## 目录
@@ -35,7 +35,7 @@
 
 ## 简介
 
-MFW-ChainFlow Assistant 旨在为 MaaFramework 用户提供开箱即用的可视化运行器，覆盖配置管理、任务调度、通知联动以及自定义扩展，降低自动化流程的开发和运维成本。
+交错战线助手 (MaaCrossCore) 是《交错战线》游戏的自动化助手，将 MaaFramework 的可视化运行器与 MCC_Framework 的任务流程整合在一起，提供配置管理、任务调度、通知联动以及自定义扩展，降低自动化流程的开发和运维成本。
 
 ## 功能亮点
 
@@ -48,6 +48,7 @@ MFW-ChainFlow Assistant 旨在为 MaaFramework 用户提供开箱即用的可视
 - 嵌入式 Agent：在 `CFA_setting.json` 中启用内置模式，自动转换为 custom 加载方式，使用 UI 内部环境，更小更轻盈
 - 速通模式：按日 / 周 / 月限制运行次数与最小间隔，避免重复执行
 - 热更新：资源仓库与本地 `CFA_setting.json` 的 `update_flag` 一致时自动启用，速度更快且无需重启
+- 桌面小人：主窗口内显示互动角色，最小化后悬浮桌面，支持聊天气泡、点击音效、连点返回应用与自定义设置
 
 ## 速通模式
 
@@ -188,7 +189,7 @@ class 动作对象1(CustomAction):
 
 ## 许可证
 
-**MFW-PyQt6** 使用 **[GPL-3.0 许可证](./LICENSE)** 开源。
+**MaaCrossCore** 使用 **[GPL-3.0 许可证](./LICENSE)** 开源。
 
 ## 致谢
 
@@ -221,10 +222,10 @@ class 动作对象1(CustomAction):
 
 ### 开发者
 
-感谢所有为 **MFW-PyQt6** 做出贡献的开发者。
+感谢所有为 **MaaCrossCore** 做出贡献的开发者。
 
-<a href="https://github.com/overflow65537/PYQT-MAA/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=overflow65537/PYQT-MAA&max=1000" alt="Contributors to MFW-PyQt6"/>
+<a href="https://github.com/MAACrossCore/MFW-PyQt6-ui/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MAACrossCore/MFW-PyQt6-ui&max=1000" alt="Contributors to MaaCrossCore"/>
 </a>
 
 完整贡献者列表请参阅 [AUTHORS.md](./AUTHORS.md)。

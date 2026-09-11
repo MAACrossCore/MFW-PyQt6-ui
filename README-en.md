@@ -2,18 +2,18 @@
 
 <div align="center">
 
-# MFW-ChainFlow Assistant
+# 交错战线助手 (MaaCrossCore)
 
 **[简体中文](./README.md) | [English](./README-en.md)**
 
-Cross-platform GUI built with **[PySide6](https://doc.qt.io/qtforpython-6)** and **[MaaFramework](https://github.com/MaaXYZ/MaaFramework)**, fully supporting interface v2 for orchestrating, running, and extending automation flows out of the box.
+Cross-platform GUI built with **[PySide6](https://doc.qt.io/qtforpython-6)** and **[MaaFramework](https://github.com/MaaXYZ/MaaFramework)** for the game *CrossCore Frontline* (交错战线). UI based on [MFW-ChainFlow Assistant](https://github.com/overflow65537/MFW-PyQt6), task flows from [MCC_Framework](https://github.com/MAACrossCore/MCC_Framework), fully supporting interface v2.
 </div>
 
 <p align="center">
-  <img alt="license" src="https://img.shields.io/github/license/overflow65537/MFW-PyQt6">
+  <img alt="license" src="https://img.shields.io/github/license/MAACrossCore/MFW-PyQt6-ui">
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white">
   <img alt="platform" src="https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-blueviolet">
-  <img alt="commit" src="https://img.shields.io/github/commit-activity/m/overflow65537/MFW-PyQt6">
+  <img alt="commit" src="https://img.shields.io/github/commit-activity/m/MAACrossCore/MFW-PyQt6-ui">
 </p>
 
 ## Table of Contents
@@ -33,7 +33,7 @@ Cross-platform GUI built with **[PySide6](https://doc.qt.io/qtforpython-6)** and
 
 ## Overview
 
-MFW-ChainFlow Assistant provides a ready-to-use visual orchestrator for MaaFramework users, covering configuration management, task scheduling, notifications, and custom extensions to reduce automation development and ops costs.
+交错战线助手 (MaaCrossCore) is an automation assistant for *CrossCore Frontline*, integrating MaaFramework's visual runner with MCC_Framework's task flows to provide configuration management, task scheduling, notifications, and custom extensions.
 
 ## Highlights
 
@@ -179,7 +179,7 @@ When embedded mode is enabled, the system will automatically:
 
 ## License
 
-**MFW-PyQt6** is open source under **[GPL-3.0 License](./LICENSE)**.
+**MaaCrossCore** is open source under **[GPL-3.0 License](./LICENSE)**.
 
 ## Acknowledgments
 
@@ -196,6 +196,6 @@ When embedded mode is enabled, the system will automatically:
 
 ### Contributors
 
-<a href="https://github.com/overflow65537/PYQT-MAA/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=overflow65537/PYQT-MAA" alt="Project contributors"/>
+<a href="https://github.com/MAACrossCore/MFW-PyQt6-ui/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MAACrossCore/MFW-PyQt6-ui" alt="Project contributors"/>
 </a>
