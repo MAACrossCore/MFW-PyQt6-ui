@@ -61,7 +61,7 @@ CLICK_SOUND = "./app/assets/sounds/character_click_Desktop.mp3"
 CHARACTER_SIZE = 150
 BUBBLE_SIZE = 240          # 气泡显示尺寸（正方形）
 BUBBLE_OVERLAP = 50        # 气泡与人物重叠像素
-BUBBLE_Y_OFFSET = 80       # 气泡向下偏移，使气泡与人物重叠更多
+BUBBLE_Y_OFFSET = 100       # 气泡向下偏移，使气泡与人物重叠更多
 
 # --- 气泡白色文字框在 Bubble.png 内的相对位置（0~1，基于 1000x1000 原图） ---
 # 白框区域：x 66~556，y 117~532
@@ -126,6 +126,7 @@ class DesktopCharacter(QWidget):
         self._mouse_pressed = False
         self._drag_start_pos = QPoint()
         self._settings_visible = False
+        self._returning = False  # 是否已触发连点返回（锁定气泡文字，避免再点变成"凑杂鱼"）
 
         # --- 缩放动画 ---
         self._scale_animation = None
@@ -472,6 +473,11 @@ class DesktopCharacter(QWidget):
         """角色被点击（非拖拽）。"""
         self._play_sound()
         self._animate_scale()
+
+        # 已触发连点返回时锁定气泡文字，再点也不会变回"凑杂鱼"
+        if self._returning:
+            return
+
         self._click_count += 1
         # 重置计数超时定时器
         self._reset_timer.start()
@@ -490,8 +496,9 @@ class DesktopCharacter(QWidget):
         elif self._click_count == 2:
             self._show_bubble("凑杂鱼")
         elif self._click_count >= RETURN_CLICK_COUNT:
-            # 达到阈值：弹出"杂鱼杂鱼杂鱼"，1 秒后返回应用
+            # 达到阈值：弹出"杂鱼杂鱼杂鱼"，锁定气泡文字，1 秒后返回应用
             self._show_bubble("杂鱼杂鱼杂鱼")
+            self._returning = True
             self._reset_timer.stop()
             self._return_timer.start()
             self._click_count = 0
@@ -502,10 +509,12 @@ class DesktopCharacter(QWidget):
     def _reset_click_count(self) -> None:
         """超时后清理点击计数，防止误触。"""
         self._click_count = 0
+        self._returning = False
         self._hide_bubble()
 
     def _do_return_home(self) -> None:
         """返回应用（1 秒延迟后触发）。"""
+        self._returning = False
         self._hide_bubble()
         self.go_home_requested.emit()
 

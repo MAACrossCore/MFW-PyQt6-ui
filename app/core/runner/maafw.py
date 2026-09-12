@@ -113,8 +113,22 @@ def resolve_agent_executable(child_exec: str, project_dir: Path) -> str:
 
     相对路径（如 agent/go-service）相对于 PI 项目目录（interface 所在目录），
     而非 Client 进程 cwd。纯命令名（如 python）保持原样以便从 PATH 查找。
+    若存在打包版嵌入的 Python（python/python.exe 或 python/bin/python3），优先使用。
     """
     raw = child_exec.strip()
+
+    # 裸 python/python3：优先用打包版嵌入的 Python，找不到再走 PATH
+    if raw in ("python", "python3"):
+        embedded_candidates = [
+            project_dir / "python" / "python.exe",
+            project_dir / "python" / "bin" / "python3",
+            project_dir / "python" / "bin" / "python",
+        ]
+        for candidate in embedded_candidates:
+            if candidate.is_file():
+                return str(candidate)
+        return raw
+
     if not raw or not _child_exec_looks_like_path(raw):
         return raw
 

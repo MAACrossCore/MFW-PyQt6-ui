@@ -449,6 +449,15 @@ build
 
 # Tools
 tools/ImageCropper/**/*.png
+# 朋友同步的调试/测试脚本（避免误提交）
+tools/test_*.py
+tools/capture_screen.py
+tools/ocr_screenshot.py
+tools/read_page_text.py
+tools/run_arena_test.py
+tools/run_chip_preview.py
+tools/run_limited_trade_chip_reward_test.py
+tools/validate_schema.py
 config/*
 !config/custom_setting.json
 MFW.spec

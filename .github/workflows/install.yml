@@ -55,12 +55,12 @@ jobs:
               echo "No valid release tag found, using v0.0.0"
               tag="v0.0.0"
             fi
-            tag=$(date "+$tag-%y%m%d-$(git rev-parse --short HEAD)")
+            tag="$tag-$(git rev-parse --short HEAD)"
           fi
 
           if ! $($is_release) ; then
-            prefix=${tag%-*-*}
-            suffix=${tag#$prefix-}
+            prefix=${tag%-*}
+            suffix=${tag##*-}
             tag="$prefix-ci.$suffix"
           fi
 
@@ -474,6 +474,19 @@ jobs:
 
       - name: Generate distribution file list
         run: python tools/build_nuitka.py --file-list
+
+      # 嵌入 Python 解释器（供 agent 自定义动作/识别使用），Windows 用 embeddable，Linux 用系统 python3
+      - name: Embed Python for agent (Windows)
+        if: matrix.platform == 'win'
+        run: |
+          # 1. 下载并嵌入 Python（含 pip 引导）
+          python tools/ci/setup_embed_python.py --target-os win --target-arch ${{ matrix.arch }} --dest-dir build/mfw-release/python
+          # 2. 下载 agent 依赖 wheel（maafw、numpy）
+          python tools/ci/download_deps.py --deps-dir build/mfw-release/deps --target-os win --target-arch ${{ matrix.arch }}
+          # 3. 用嵌入的 Python 安装依赖
+          build/mfw-release/python/python.exe -m pip install build/mfw-release/deps/*.whl
+          # 4. 清理 wheel 缓存
+          rm -rf build/mfw-release/deps
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v7
