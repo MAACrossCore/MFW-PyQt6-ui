@@ -277,7 +277,6 @@ jobs:
             app/assets/backgrounds=app/assets/backgrounds
             app/assets/sounds=app/assets/sounds
             app/assets/Desktop_png=app/assets/Desktop_png
-            agent=agent
             resource=resource
 
       - name: Qt GUI with PySide6 (Linux)
@@ -315,7 +314,6 @@ jobs:
             app/assets/backgrounds=app/assets/backgrounds
             app/assets/sounds=app/assets/sounds
             app/assets/Desktop_png=app/assets/Desktop_png
-            agent=agent
             resource=resource
 
       - name: updater build (Windows)
@@ -488,6 +486,22 @@ jobs:
           python tools/ci/setup_embed_python.py --target-os win --target-arch ${{ matrix.arch }} --dest-dir build/mfw-release/python
           # 2. 用嵌入的 Python 直接安装 agent 依赖（maafw、numpy）
           build/mfw-release/python/python.exe -m pip install -r agent/requirements.txt
+
+      # 复制 Nuitka include-data-dir 无法处理的内容：agent 的 .py 文件、interface.json、ffmpeg 多媒体插件
+      - name: Copy agent & interface.json & ffmpeg plugin
+        shell: bash
+        run: |
+          # 1. 复制 agent 目录（Nuitka include-data-dir 不会拷贝 .py 文件）
+          cp -r agent build/mfw-release/agent
+          # 2. 复制 interface.json
+          cp interface.json build/mfw-release/interface.json
+          # 3. Windows 下复制 ffmpeg 多媒体插件（QMediaPlayer 播放 mp3 需要）
+          if [ "${{ matrix.platform }}" = "win" ]; then
+            PYSIDE_DIR=$(python -c "import PySide6, os; print(os.path.dirname(PySide6.__file__))")
+            mkdir -p build/mfw-release/PySide6/qt-plugins/multimedia
+            cp "$PYSIDE_DIR/plugins/multimedia/ffmpegmediaplugin.dll" build/mfw-release/PySide6/qt-plugins/multimedia/ 2>/dev/null || true
+            cp "$PYSIDE_DIR/plugins/multimedia/windowsmediaplugin.dll" build/mfw-release/PySide6/qt-plugins/multimedia/ 2>/dev/null || true
+          fi
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v7
