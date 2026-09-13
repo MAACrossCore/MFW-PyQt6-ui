@@ -101,7 +101,8 @@ def install_deps():
 
 def configure_interface_agent(interface: dict):
     if os_name == "win":
-        python_exec = r"./python/python.exe"
+        # pythonw：避免每次 pretask / Agent 弹出控制台黑框（stdout 仍由 UI 管道捕获）
+        python_exec = r"./python/pythonw.exe"
     elif os_name == "macos":
         python_exec = r"./python/bin/python3"
     elif os_name == "linux":

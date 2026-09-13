@@ -74,12 +74,19 @@ class ControllerHelper:
             emu = subprocess.run(
                 [mumu_manager_path, "info", "-v", "all"],
                 capture_output=True,
-                text=True,
                 check=True,
-                encoding="utf-8",
-                errors="ignore",
             )
-            return jsonc.loads((emu.stdout or "").strip())
+            raw = emu.stdout or b""
+            text = ""
+            for encoding in ("utf-8-sig", "utf-8", "gbk", "cp936"):
+                try:
+                    text = raw.decode(encoding)
+                    break
+                except UnicodeDecodeError:
+                    continue
+            if not text:
+                text = raw.decode("gbk", errors="replace")
+            return jsonc.loads(text.strip())
         except (subprocess.CalledProcessError, jsonc.JSONDecodeError) as exc:
             logger.error(f"获取 MuMu 信息失败: {exc}")
             return None

@@ -10,17 +10,64 @@ import subprocess
 import sys
 import time
 
+_AGENT_DIR = Path(__file__).resolve().parent
+if str(_AGENT_DIR) not in sys.path:
+    sys.path.insert(0, str(_AGENT_DIR))
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 CACHE_FILE = PROJECT_ROOT / "config" / "mumu_runtime.json"
+_STARTED_AT = time.monotonic()
+
+
+def elapsed():
+    """从脚本启动到现在的秒数，用于定位卡在哪一步。"""
+    return time.monotonic() - _STARTED_AT
 START_ENTRIES = {"进入首页", "StartGameTask"}
 INSTANCE_OPTION = "MuMu实例"
 AUTOSTART_OPTION = "模拟器自动启动"
 REDETECT_OPTION = "每次重新检测连接"
 
 
+# MCC 调 pretask 时 stdout 不会进 MFA 日志，所以额外落一份文件日志，
+# 否则每次排查这块都是黑盒（只能看到「卡了 N 秒然后 NOT_STARTED」）。
+LOG_FILE = PROJECT_ROOT / "logs" / "ensure_mumu.log"
+
+
 def log(message):
     print(f"[MuMu pretask] {message}", flush=True)
+    try:
+        LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
+        stamp = time.strftime("%Y-%m-%d %H:%M:%S")
+        with LOG_FILE.open("a", encoding="utf-8") as handle:
+            handle.write(f"[{stamp}] {message}\n")
+    except Exception:
+        pass  # 日志失败绝不影响 pretask 本身
+
+
+def _configure_stdio_utf8() -> None:
+    """MFW 按 UTF-8 读 pretask 管道；统一 stdout/stderr，避免 GBK 打印再被误解。"""
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            if hasattr(stream, "reconfigure"):
+                stream.reconfigure(encoding="utf-8", errors="replace")
+        except Exception:
+            pass
+
+
+def _decode_process_output(data: bytes | str | None) -> str:
+    """Decode subprocess output. MuMuManager on Chinese Windows is typically GBK."""
+    if data is None:
+        return ""
+    if isinstance(data, str):
+        return data
+    if not data:
+        return ""
+    for encoding in ("utf-8-sig", "utf-8", "gbk", "cp936"):
+        try:
+            return data.decode(encoding)
+        except UnicodeDecodeError:
+            continue
+    return data.decode("gbk", errors="replace")
 
 
 def run(args, timeout=30):
@@ -28,12 +75,15 @@ def run(args, timeout=30):
         result = subprocess.run(
             [str(value) for value in args],
             capture_output=True,
-            text=True,
-            errors="replace",
+            text=False,
             timeout=timeout,
             creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0),
         )
-        return result.returncode, result.stdout.strip(), result.stderr.strip()
+        return (
+            result.returncode,
+            _decode_process_output(result.stdout).strip(),
+            _decode_process_output(result.stderr).strip(),
+        )
     except Exception as exc:
         return 1, "", str(exc)
 
@@ -105,6 +155,125 @@ def interface_data():
     return {}
 
 
+def option_value(raw, default=""):
+    """Normalize MFW/MFA option payloads: plain str or {\"value\": \"...\"}."""
+    if raw is None:
+        return str(default)
+    if isinstance(raw, dict):
+        if "value" in raw:
+            return str(raw.get("value", default))
+        if "name" in raw:
+            return str(raw.get("name", default))
+    return str(raw)
+
+
+def pretask_options_from_argv():
+    """MFW appends pretask.option values as a trailing JSON object."""
+    # 从后往前找第一个像 JSON object 的参数，避免路径等干扰
+    for raw in reversed(sys.argv[1:]):
+        text = str(raw).strip()
+        if not text.startswith("{"):
+            continue
+        try:
+            data = json.loads(text)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(data, dict):
+            return data
+    return {}
+
+
+def mfw_config_path():
+    multi = load_json(PROJECT_ROOT / "config" / "multi_config.json")
+    config_id = multi.get("curr_config_id")
+    if not config_id:
+        return None
+    path = PROJECT_ROOT / "config" / "configs" / f"{config_id}.json"
+    return path if path.is_file() else None
+
+
+def mfw_task_option(config, task_names, option_name, default=""):
+    names = {task_names} if isinstance(task_names, str) else set(task_names)
+    for task in config.get("tasks", []) if isinstance(config, dict) else []:
+        if task.get("name") not in names and task.get("item_id") not in names:
+            continue
+        options = task.get("task_option") or {}
+        if option_name in options:
+            return option_value(options.get(option_name), default)
+        # PreTask：选项在 pretask_entries[i].options 里
+        for entry in options.get("pretask_entries") or []:
+            if not isinstance(entry, dict):
+                continue
+            entry_options = entry.get("options") or {}
+            if option_name in entry_options:
+                return option_value(entry_options.get(option_name), default)
+    return str(default)
+
+
+def update_mfw_mumu_option(case_name: str) -> None:
+    """Write 启动游戏 / PreTask MuMu实例 selection into current MFW config."""
+    path = mfw_config_path()
+    if not path:
+        return
+    data = load_json(path)
+    changed = False
+    for task in data.get("tasks", []):
+        name = task.get("name")
+        item_id = task.get("item_id")
+        options = task.setdefault("task_option", {})
+        if name == "启动游戏" or item_id == "启动游戏":
+            options[INSTANCE_OPTION] = {"value": str(case_name)}
+            changed = True
+        if item_id == "PreTask" or name == "PreTask":
+            entries = options.setdefault("pretask_entries", [])
+            if not entries:
+                entries.append({"options": {}})
+            entry = entries[0] if isinstance(entries[0], dict) else {"options": {}}
+            entry_options = entry.setdefault("options", {})
+            entry_options[INSTANCE_OPTION] = {"value": str(case_name)}
+            entries[0] = entry
+            options["pretask_entries"] = entries
+            changed = True
+    if changed:
+        save_json(path, data)
+        log(f"已写入 MFW 配置 MuMu实例={case_name}")
+
+
+def update_mfw_controller(adb, serial, root, index, name="MuMu") -> None:
+    """Write Controller ADB block for current MFW profile."""
+    path = mfw_config_path()
+    if not path:
+        return
+    data = load_json(path)
+    manager = Path(root) / "nx_main" / "MuMuManager.exe"
+    for task in data.get("tasks", []):
+        if task.get("item_id") != "Controller" and task.get("name") != "Controller":
+            continue
+        options = task.setdefault("task_option", {})
+        controller_type = options.get("controller_type") or "ADB 默认方式"
+        block = options.setdefault(controller_type, {})
+        block["adb_path"] = str(adb)
+        if serial:
+            block["address"] = str(serial)
+        block["config"] = {
+            "extras": {
+                "mumu": {
+                    "enable": True,
+                    "index": int(index),
+                    "path": Path(root).as_posix(),
+                }
+            }
+        }
+        block["device_name"] = f"{name}-MuMu[{index}]({serial or 'pending'})"
+        if manager.is_file():
+            block["emulator_path"] = str(manager.resolve())
+            block["emulator_params"] = f"control --vmindex {index} launch"
+        options["controller_type"] = controller_type
+        save_json(path, data)
+        log(f"已写入 MFW 控制器：实例 {index} / {serial}")
+        return
+
+
 def task_option_case(instance, option_name, default):
     selected = next(
         (option for option in start_task(instance).get("option", []) if option.get("name") == option_name),
@@ -121,15 +290,46 @@ def task_option_case(instance, option_name, default):
 
 
 def runtime_settings(instance):
-    configured_index = task_option_case(instance, INSTANCE_OPTION, "自动")
+    pretask_opts = pretask_options_from_argv()
+    mfw_path = mfw_config_path()
+    mfw_cfg = load_json(mfw_path) if mfw_path else {}
+    cache = load_json(CACHE_FILE)
+
+    def pick_option(name, default):
+        if name in pretask_opts:
+            value = option_value(pretask_opts.get(name), default)
+            # PreTask 里仍是「自动」时，继续读启动游戏等处的明确选择
+            if value and value != "自动":
+                return value
+        mfw_value = mfw_task_option(mfw_cfg, {"启动游戏", "PreTask"}, name, "")
+        if mfw_value:
+            return mfw_value
+        return task_option_case(instance, name, default)
+
+    configured = pick_option(INSTANCE_OPTION, "自动")
     env_index = os.environ.get("MUMU_VM_INDEX")
-    requested_index = env_index if env_index is not None else configured_index
-    requested_index = int(requested_index) if str(requested_index).isdigit() else None
+    if env_index is not None and str(env_index).isdigit():
+        requested_index = int(env_index)
+        selection_source = "env"
+    elif str(configured).isdigit():
+        requested_index = int(configured)
+        selection_source = "option"
+    elif cache.get("user_selected") and str(cache.get("vm_index", "")).isdigit():
+        requested_index = int(cache["vm_index"])
+        selection_source = "locked_cache"
+    else:
+        requested_index = None
+        selection_source = "auto"
+
     return {
         "vm_index": requested_index,
-        "auto_start": task_option_case(instance, AUTOSTART_OPTION, "开启") != "关闭",
-        "redetect": task_option_case(instance, REDETECT_OPTION, "关闭") == "开启",
-        "minimize_after_launch": bool(instance.get("MinimizeEmulatorAfterLaunch", False)),
+        "selection_source": selection_source,
+        "auto_start": pick_option(AUTOSTART_OPTION, "开启") != "关闭",
+        "redetect": pick_option(REDETECT_OPTION, "关闭") == "开启",
+        "minimize_after_launch": bool(
+            instance.get("MinimizeEmulatorAfterLaunch", False)
+            or mfw_cfg.get("MinimizeEmulatorAfterLaunch", False)
+        ),
     }
 
 
@@ -248,13 +448,41 @@ def manager_info(manager, index):
 
 
 def choose_instance(manager, requested=None, preferred_serial="", cached_index=None, fallback_index=None):
-    found = []
-    for index in range(10):
-        info = manager_info(manager, index)
-        if info:
-            found.append((index, info))
+    # 始终用 MuMuManager 全量枚举（info -v all，失败再扫 0..9）。
+    # 空壳索引也会返回 info；若只查缓存编号会永远命中过期实例。
+    try:
+        import mumu_scan
+
+        found = mumu_scan.list_instances(manager)
+    except Exception as exc:
+        log(f"mumu_scan 失败，回退逐个 info：{exc}")
+        found = []
+        for index in range(10):
+            info = manager_info(manager, index)
+            if info:
+                found.append((index, info))
     if not found:
         return None, {}
+
+    # 诊断：把扫到的实例及其关键状态打出来，用于判断「明明在运行却识别不到」这类问题
+    log(
+        "诊断：扫到实例 %s（已耗时 %.1fs）"
+        % (
+            [
+                (
+                    index,
+                    {
+                        "进程已起": info.get("is_process_started"),
+                        "安卓已起": info.get("is_android_started"),
+                        "主实例": info.get("is_main"),
+                        "adb": "%s:%s" % (info.get("adb_host_ip"), info.get("adb_port")),
+                    },
+                )
+                for index, info in found
+            ],
+            elapsed(),
+        )
+    )
 
     def pick(index):
         for item in found:
@@ -277,11 +505,29 @@ def choose_instance(manager, requested=None, preferred_serial="", cached_index=N
                     return candidate
         return None
 
+    def prefer(candidates):
+        """在候选里选一个：唯一 / 匹配已保存 ADB / 缓存编号（须在候选中）/ 最小编号。"""
+        if not candidates:
+            return None
+        if choice := unique(candidates):
+            return choice
+        for key in (cached_index, fallback_index):
+            if key is None:
+                continue
+            try:
+                value = int(key)
+            except (TypeError, ValueError):
+                continue
+            for item in candidates:
+                if item[0] == value:
+                    return item
+        return sorted(candidates, key=lambda item: item[0])[0]
+
     running = [item for item in found if item[1].get("is_android_started")]
-    if choice := unique(running):
+    if choice := prefer(running):
         return choice
     process_started = [item for item in found if item[1].get("is_process_started")]
-    if choice := unique(process_started):
+    if choice := prefer(process_started):
         return choice
     if cached_index is not None:
         if choice := pick(int(cached_index)):
@@ -292,7 +538,7 @@ def choose_instance(manager, requested=None, preferred_serial="", cached_index=N
     if len(found) == 1:
         return found[0]
     main_instances = [item for item in found if item[1].get("is_main")]
-    if choice := unique(main_instances):
+    if choice := prefer(main_instances):
         return choice
     found.sort(key=lambda item: item[0])
     log(f"自动模式发现多个实例 {[item[0] for item in found]}，选用编号 {found[0][0]}")
@@ -301,12 +547,23 @@ def choose_instance(manager, requested=None, preferred_serial="", cached_index=N
 
 def ensure_android(manager, index, info, allow_start=True):
     if not info.get("is_process_started") and not info.get("is_android_started"):
+        # 诊断：这条分支就是「卡 60 秒」的源头，把判断依据的原始值和已耗时打出来
+        log(
+            "诊断：实例 %s 判定为未启动 —— is_process_started=%r is_android_started=%r，"
+            "此时已耗时 %.1fs"
+            % (index, info.get("is_process_started"), info.get("is_android_started"), elapsed())
+        )
         if not allow_start:
             log(f"MuMu 实例 {index} 尚未启动，且已关闭自动启动")
             return {}
         log(f"正在启动 MuMu 12 实例 {index}")
+        launch_started = time.monotonic()
         code, output, error = run(
             [manager, "control", "--vmindex", index, "launch"], timeout=60
+        )
+        log(
+            "诊断：launch 返回 code=%r，耗时 %.1fs（output=%r error=%r）"
+            % (code, time.monotonic() - launch_started, (output or "")[:200], (error or "")[:200])
         )
         if code:
             log(f"启动 MuMu 失败：{error or output}")
@@ -475,55 +732,85 @@ def ensure_adb(adb, info, index):
 
 
 def update_instance(path, instance, adb, serial, root, index):
-    if not path:
-        return
-    if root is None:
-        log(f"无法写回 MFA：缺少 MuMu 安装路径（serial={serial}）")
-        return
-    old = instance.get("AdbDevice", {}) or {}
-    device = {
-        "Name": f"MuMu（实例 {index}）",
-        "AdbPath": str(adb),
-        "AdbSerial": serial,
-        "ScreencapMethods": int(old.get("ScreencapMethods") or 18446744073709551559),
-        "InputMethods": int(old.get("InputMethods") or 4),
-        "Config": json.dumps({
-            "extras": {"mumu": {"enable": True, "index": index, "path": Path(root).as_posix()}}
-        }, ensure_ascii=False, separators=(",", ":")),
-        "AgentPath": old.get("AgentPath") or "./MaaAgentBinary",
-    }
-    # 不保留过期 InfoHandle，否则 MFA 可能仍按 device=<none> 连接
-    instance["AdbDevice"] = device
-    manager = Path(root) / "nx_main" / "MuMuManager.exe"
-    if manager.is_file():
-        # 与 MFA「启动设置 > 游戏路径」使用同一套启动入口。这样连接失败时
-        # MFA 可以直接复用本次自动检测到的 MuMu，而不依赖用户手工填写路径。
-        instance["SoftwarePath"] = str(manager.resolve())
-        if index is not None:
-            instance["EmulatorConfig"] = f"control --vmindex {index} launch"
-    save_json(path, instance)
-    log(f"已写入 MFA 连接：{serial}")
-    if manager.is_file():
-        log(f"已同步 MFA 游戏路径：{manager.resolve()}")
+    if path and instance is not None:
+        if root is None:
+            log(f"无法写回 MFA：缺少 MuMu 安装路径（serial={serial}）")
+        else:
+            old = instance.get("AdbDevice", {}) or {}
+            device = {
+                "Name": f"MuMu（实例 {index}）",
+                "AdbPath": str(adb),
+                "AdbSerial": serial,
+                "ScreencapMethods": int(old.get("ScreencapMethods") or 18446744073709551559),
+                "InputMethods": int(old.get("InputMethods") or 4),
+                "Config": json.dumps({
+                    "extras": {"mumu": {"enable": True, "index": index, "path": Path(root).as_posix()}}
+                }, ensure_ascii=False, separators=(",", ":")),
+                "AgentPath": old.get("AgentPath") or "./MaaAgentBinary",
+            }
+            # 不保留过期 InfoHandle，否则 MFA 可能仍按 device=<none> 连接
+            instance["AdbDevice"] = device
+            manager = Path(root) / "nx_main" / "MuMuManager.exe"
+            if manager.is_file():
+                # 与 MFA「启动设置 > 游戏路径」使用同一套启动入口。这样连接失败时
+                # MFA 可以直接复用本次自动检测到的 MuMu，而不依赖用户手工填写路径。
+                instance["SoftwarePath"] = str(manager.resolve())
+                if index is not None:
+                    instance["EmulatorConfig"] = f"control --vmindex {index} launch"
+            save_json(path, instance)
+            log(f"已写入 MFA 连接：{serial}")
+            if manager.is_file():
+                log(f"已同步 MFA 游戏路径：{manager.resolve()}")
+
+    # MFW 配置（config/configs/*.json）同步控制器 + 任务选项
+    try:
+        name = f"MuMu实例{index}"
+        update_mfw_controller(adb, serial, root, index, name=name)
+        update_mfw_mumu_option(str(index))
+    except Exception as exc:
+        log(f"写回 MFW 配置失败：{exc}")
 
 
 def main():
+    _configure_stdio_utf8()
     instance_path, instance = selected_instance()
     if os.name != "nt":
         log("MuMu 12 自动启动目前仅支持 Windows")
         return 1
 
     settings = runtime_settings(instance)
+    log(
+        f"实例选择来源={settings['selection_source']} "
+        f"vm_index={settings['vm_index']} "
+        f"auto_start={settings['auto_start']} redetect={settings['redetect']}"
+    )
     # pretask 只保证 MuMu / ADB；开游戏包交给 pipeline「启动游戏」任务（StartApp）
     saved = saved_connection(instance)
+    if not saved:
+        # MFW：从当前控制器配置恢复已保存 ADB
+        mfw_path = mfw_config_path()
+        mfw_cfg = load_json(mfw_path) if mfw_path else {}
+        for task in mfw_cfg.get("tasks", []):
+            if task.get("item_id") != "Controller" and task.get("name") != "Controller":
+                continue
+            options = task.get("task_option") or {}
+            controller_type = options.get("controller_type") or "ADB 默认方式"
+            block = options.get(controller_type) or {}
+            adb = Path(str(block.get("adb_path") or ""))
+            serial = str(block.get("address") or "").strip()
+            if adb.is_file() and serial:
+                saved = (adb, serial)
+            break
 
-    if saved and not settings["redetect"]:
+    if saved and not settings["redetect"] and settings["vm_index"] is None:
         adb, serial = saved
         log(f"[1/3] 检查已保存的 ADB 连接：{serial}")
-        if recover_existing_adb(adb, serial, instance):
+        # 构造最小 instance 供 connection_usable 使用
+        probe = instance if instance else {"AdbDevice": {"AdbPath": str(adb), "AdbSerial": serial}}
+        if recover_existing_adb(adb, serial, probe):
             log("[2/3] 已保存的 ADB 连接可用，跳过模拟器扫描")
-            root, index = device_root_index(instance, adb)
-            update_instance(instance_path, instance, adb, serial, root, index)
+            root, index = device_root_index(probe, adb)
+            update_instance(instance_path, instance or {}, adb, serial, root, index)
             log("[3/3] MuMu 与 ADB 已就绪（不开游戏）")
             return 0
         log("已保存连接不可用，改为查找并启动 MuMu")
@@ -535,8 +822,9 @@ def main():
         return 1
     log(f"发现 MuMu 12：{root}")
 
-    _, saved_index = device_root_index(instance, saved[0] if saved else adb)
-    cached_index = load_json(CACHE_FILE).get("vm_index")
+    _, saved_index = device_root_index(instance or {}, saved[0] if saved else adb)
+    cache = load_json(CACHE_FILE)
+    cached_index = cache.get("vm_index")
     index, info = choose_instance(
         manager,
         requested=settings["vm_index"],
@@ -557,8 +845,18 @@ def main():
         log("MuMu 已启动，但 ADB 连接失败")
         return 1
 
-    save_json(CACHE_FILE, {"root": str(root), "vm_index": index, "adb_serial": serial})
-    update_instance(instance_path, instance, adb, serial, root, index)
+    user_selected = settings["selection_source"] in {"env", "option", "locked_cache"}
+    save_json(
+        CACHE_FILE,
+        {
+            "root": str(root),
+            "vm_index": index,
+            "adb_serial": serial,
+            "user_selected": user_selected,
+            "display": f"MuMu（实例 {index}）/{serial}",
+        },
+    )
+    update_instance(instance_path, instance or {}, adb, serial, root, index)
     if launched_by_pretask and settings["minimize_after_launch"]:
         minimize_mumu(manager, index)
     log("[3/3] MuMu 与 ADB 已就绪（不开游戏）")

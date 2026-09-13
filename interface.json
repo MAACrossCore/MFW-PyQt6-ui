@@ -7,10 +7,15 @@
     "pretask": {
         "name": "自动启动 MuMu 12",
         "label": "仅在选择启动游戏时运行",
-        "description": "自动查找 MuMu 12、启动实例并配置 ADB（不打开游戏；开游戏由「启动游戏」任务负责）。",
+        "description": "自动查找 MuMu 12、启动实例并配置 ADB（不打开游戏；开游戏由「启动游戏」任务负责）。\n\n先双击根目录「刷新MuMu实例.bat」更新实例列表，再重启程序，然后在本页或「启动游戏」里选择具体实例。",
         "exec": "python",
         "args": [
             "./agent/ensure_mumu.py"
+        ],
+        "option": [
+            "MuMu实例",
+            "模拟器自动启动",
+            "每次重新检测连接"
         ]
     },
     "agent": {
@@ -725,10 +730,12 @@
         "MuMu实例": {
             "type": "select",
             "label": "MuMu实例",
+            "description": "先运行根目录「刷新MuMu实例.bat」再重启程序，下拉会显示扫到的实例名称/状态/ADB。也可直接运行「选择MuMu实例.bat」立即锁定。",
             "default_case": "自动",
             "cases": [
                 {
-                    "name": "自动"
+                    "name": "自动",
+                    "label": "自动（优先已启动实例）"
                 },
                 {
                     "name": "0"
